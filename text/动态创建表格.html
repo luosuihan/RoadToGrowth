@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .dv{
+            width: 100px;
+            height: 100px;
+            background-color: rgba(53, 116, 247,60);
+            position: absolute;
+            top: 0;;
+            left: 0;
+        }
+        .ss{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<input type="button" id="btn" value="创建表格">
+<div class="dd">
+    <div class="ss">fasdfasgafsg</div>
+    <div class="dv"></div>
+</div>
+
+<!--<script>
+    function my$(id) {
+        return document.getElementById(id);
+    }
+    var arr = [
+        {name:"百度",href:"www.baidu.com"},
+        {name:"京东",href:"www.jd.com"},
+        {name:"淘宝",href:"www.tb.com"},
+        {name:"天猫",href:"www.tm.com"},
+    ];
+
+    my$("btn").onclick = function () {
+        if(my$("btntb")){
+            my$("dv").removeChild(my$("btntb"));
+        }
+        var objtb = document.createElement("table");
+        objtb.border = "1";
+        objtb.cellPadding = "0";
+        objtb.cellSpacing = "0";
+        objtb.id = "btntb";
+        my$("dv").appendChild(objtb);
+        for (var i = 0; i < arr.length; i++) {
+            var dt = arr[i];
+            var objtr = document.createElement("tr");
+            objtb.appendChild(objtr);
+            //第一个td
+            var objtd1 = document.createElement("td");
+            objtd1.innerText = dt.name;
+            objtr.appendChild(objtd1);
+            //第二个td
+            var objtd2 = document.createElement("td");
+            objtd2.innerHTML = "<a href= "+dt.href+">"+dt.name+"</a>";
+            objtr.appendChild(objtd2);
+        }
+
+    }
+
+</script>-->
+</body>
+</html>

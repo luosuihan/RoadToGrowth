@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 200px;
+            height: 100px;
+            background-color: #e5d790;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<input type="button" id="btn" value="按钮">
+<div id="dv"></div>
+<script>
+    function my$(id) {
+        return document.getElementById(id);
+    }
+    my$("btn").onclick = function () {
+        var json1 = {"width":400,"height":500,"left":500,"top":80};
+        animation(my$("dv"),json1,function () {
+            animation(my$("dv"),{"width":40,"height":50,"left":0,"top":0,"zIndex":1000,"opacity":0.2});
+        });
+    };
+    function getStyle(element,attr) {
+        return window.getComputedStyle ? window.getComputedStyle(element,null)[attr] : window.currentStyle[attr] || 0;
+    }
+    function animation(element,json,fn) {
+        clearInterval(element.tiemId);
+        element.tiemId = setInterval(function () {
+            var flag = true;
+            for (var js in json){
+
+                /*zIndex,opacity*/
+                if (js == "opacity"){
+                    //透明度
+                    var current = getStyle(element,js)*100;
+                    var target = json[js]*100;
+                    var step = (target - current) / 10;
+                    step = step > 0 ? Math.ceil(step) : Math.floor(step);
+                    current += step;
+                    console.log("current : "+current/100);
+                    element.style[js] = current/100;
+                }else if(js == "zIndex"){
+                    //层叠
+                    element.style[js] = json[js];
+                }else {
+                    //普通属性
+                    var current = parseInt(getStyle(element,js));
+                    var target = json[js];
+                    var step = (target - current) / 10;
+                    step = step > 0 ? Math.ceil(step) : Math.floor(step);
+                    current += step;
+                    element.style[js] = current + "px";
+                }
+                if (current != target){
+                    flag = false ;
+                }
+            }
+            if(flag){
+                clearInterval(element.tiemId);
+                if(fn){
+                    fn();
+                }
+            }
+           /* var current = element.offsetLeft;
+            var step = (target - current) / 10;
+            step = step > 0 ? Math.ceil(step):Math.floor(step);
+            current += step;
+            element.style.left = current + "px";
+            if (target == current){
+                clearInterval(element.tiemId);
+            }*/
+        },30)
+    }
+</script>
+</body>
+</html>

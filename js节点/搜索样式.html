@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="dv">
+    <input type="text" id="ip" value="">
+</div>
+<script src="../jsTools/elementID.js"></script>
+<script>
+    var arrs = ["小杨才是最纯洁的", "小杨才是最帅的", "小段是最猥琐的", "小超是最龌龊的", "传智播客是一个培训机构", "传说在传智有个很帅很纯洁的小杨", "苹果好吃", "苹果此次召回还是没有中国"];
+    var newarr = [];
+    //var objdv = document.getElementById("dv");
+    // console.log("fs : "+text.value.length+"  dd : "+newarr.length);
+
+    myID$("ip").onkeyup = function () {
+        var text = myID$("ip").value;
+        if (myID$("dv2")) {
+            //删除一次
+            myID$("dv").removeChild(myID$("dv2"));
+        }
+        newarr.length = 0 ;
+        for (var i = 0; i < arrs.length; i++) {
+            if (arrs[i].indexOf(text) == 0) {
+                newarr.push(arrs[i]);
+                //console.log(newarr.length);
+            }
+        }
+
+        if (this.value.length == 0 || newarr.length == 0) {
+            if (myID$("dv2")) {
+                myID$("dv").removeChild("dv2");
+            }
+            return;
+        }
+        var objDiv = document.createElement("div");
+        myID$("dv").appendChild(objDiv);
+        objDiv.id = "dv2";
+        objDiv.style.width = "160px";
+        //objDiv.style.height = "300px";
+        objDiv.style.border = "1px solid #2288f6";
+
+        //将新数组展示出来
+        for (var j = 0; j < newarr.length; j++) {
+            var objp = document.createElement("p");
+            objp.innerText = newarr[j];
+            myID$("dv2").appendChild(objp);
+            objp.style.margin = "5px 0";
+            objp.style.padding = "0";
+            objp.style.fontSize = "20px";
+            objp.onmouseover = f2;
+            objp.onmouseout = f1;
+        }
+    };
+    function f1() {
+        this.style.backgroundColor = "";
+    }
+    function f2() {
+        this.style.backgroundColor = "red";
+    }
+</script>
+</body>
+</html>

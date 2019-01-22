@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function zhans(name,age) {
+            this.name = name;
+            this.age = age;
+            this.ss = function () {
+                console.log("2222");
+            }
+        }
+        zhans.prototype.eat=function () {
+            console.log("fdsadfa");
+        }
+        var z1 =new zhans("zhang",18);
+        var z2 =new zhans("zha11ng",18);
+        console.log(z1.eat == z2.eat);
+        console.log(z1);
+        console.log(z2);
+    </script>
+</head>
+<body>
+<!--<script>
+    function zhans(name,age) {
+        this.name = name;
+        this.age = age;
+    }
+    zhans.prototype.eat=function () {
+        console.log("fdsadfa");
+    }
+    var z1 = zhans("zhang",18);
+    var z2 = zhans("zha11ng",18);
+    console.log(z1.eat == z2.eat);
+</script>-->
+</body>
+</html>

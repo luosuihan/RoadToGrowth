@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*初始化  reset*/
+        blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+        body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;color: #666;}
+        ol,ul{list-style:none}
+        a{text-decoration:none}
+        fieldset,img{border:0;vertical-align:top;}
+        a,input,button,select,textarea{outline:none;}
+        a,button{cursor:pointer;}
+        .wrap{
+            width:1200px;
+            margin:100px auto;
+        }
+        .slide {
+            height:500px;
+            position: relative;
+        }
+        .slide li{
+            position: absolute;
+            left:200px;
+            top:0;
+        }
+        .slide li img{
+            width:100%;
+        }
+        .arrow{
+            opacity: 0;
+        }
+        .prev,.next{
+            width:76px;
+            height:112px;
+            position: absolute;
+            top:50%;
+            margin-top:-56px;
+            background: url(prev.png) no-repeat;
+            z-index: 99;
+        }
+        .next{
+            right:0;
+            background-image: url(next.png);
+        }
+
+    </style>
+</head>
+<body>
+<div id="wrap" class="wrap">
+    <div id="slide" class="slide">
+        <ul>
+            <li><a><img src="slidepic1.jpg"/></a></li>
+            <li><a><img src="slidepic2.jpg"/></a></li>
+            <li><a><img src="slidepic3.jpg"/></a></li>
+            <li><a><img src="slidepic4.jpg"/></a></li>
+            <li><a><img src="slidepic5.jpg"/></a></li>
+        </ul>
+    </div>
+    <div class="arrow" id="arrow">
+        <a href="javascript:;" class="prev" id="arrLeft"></a>
+        <a href="javascript:;" class="next" id="arrRight"></a>
+    </div>
+</div>
+<script src="common.js"></script>
+<script>
+    var config = [
+        {
+            width: 400,
+            top: 20,
+            left: 50,
+            opacity: 0.2,
+            zIndex: 2
+        },//0
+        {
+            width: 600,
+            top: 70,
+            left: 0,
+            opacity: 0.8,
+            zIndex: 3
+        },//1
+        {
+            width: 800,
+            top: 100,
+            left: 200,
+            opacity: 1,
+            zIndex: 4
+        },//2
+        {
+            width: 600,
+            top: 70,
+            left: 600,
+            opacity: 0.8,
+            zIndex: 3
+        },//3
+        {
+            width: 400,
+            top: 20,
+            left: 750,
+            opacity: 0.2,
+            zIndex: 2
+        }//4
+    ];
+    function animation(element,json) {
+        clearInterval(element.timeId);
+        element.timeId = setInterval(function () {
+            var flag = true;
+            for (var attr in json){
+                var current = parseInt(getStyle(element,attr));
+                var tager = json[attr];
+                var step = tager- current;
+                step = step > 0 ? Math.ceil(step) : Math.floor(step);
+                current += step;
+                element.style[attr] = current + "px";
+                if (tager != current){
+                    flag = false;
+                }
+            }
+            if (flag){
+                clearInterval(element.timeId);
+            }
+        },20)
+    }
+    //getComputedStyle()  该函数可获取到系统内所有元素
+    function getStyle(element,attr) {
+        return window.getComputedStyle ? window.getComputedStyle(element,null)[attr] : window.currentStyle(attr) || 0;
+    }
+    var list = my$("slide").getElementsByTagName("li");
+    function assign() {
+        for (var i = 0; i < list.length; i++) {
+            //设置每个li,都要把宽,层级,透明度,left,top到达指定的目标位置
+            animation(list[i], config[i]);
+        }
+    }
+    assign();
+</script>
+</body>
+</html>

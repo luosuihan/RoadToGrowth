@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>通过节点来创建Li</title>
+    <style>
+        p{
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<input type="button" id="btn" value="按钮">
+<div id="dv"></div>
+<script src="../jsTools/elementID.js"></script>
+<script>
+    var arr = ["寒冰","烬","狗头","洛克","炼金","鳄鱼","蘑菇","剑豪"];
+    // var objsP;
+    myID$("btn").onclick = function () {
+
+        for (var i = 0;i < arr.length ; i++){
+           var objsP = document.createElement("p");
+            objsP.innerText = arr[i];
+            myID$("dv").appendChild(objsP);
+
+            objsP.onmouseover = f1;
+            objsP.onmouseout = f2;
+
+        }
+    };
+    function f1() {
+        this.style.backgroundColor = "red";
+    };
+    function f2() {
+        this.style.backgroundColor = "";
+    };
+
+</script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li , a{
+            list-style: none;
+            text-decoration: none;
+        }
+        .w{
+            margin: 60px auto;
+            width: 380px;
+            height: 235px;
+            border: 1px solid #7d2437;
+            overflow: hidden;
+        }
+        .zli{
+            width: 70px;
+            height: 225px;
+           /* background-color: #e5d790;*/
+            float: left;
+
+        }
+        .cimg{
+            width: 240px;
+            height: 235px;
+            background-color: #2288f6;
+            float: left;
+        }
+        .zli li a{
+            line-height: 25px;
+            text-align: center;
+            width: 70px;
+            height: 25px;
+            display: block;
+            color: #1d2226;
+            font-size: 14px;
+            border-bottom: 1px solid pink;
+            background: url(images/lili.jpg) repeat-x;
+        }
+        .yli{
+            width: 70px;
+            height: 225px;
+            background-color: #059977;
+            float: left;
+        }
+        .yli li a{
+            line-height: 25px;
+            text-align: center;
+            width: 70px;
+            height: 25px;
+            display: block;
+            color: #1d2226;
+            font-size: 14px;
+            border-bottom: 1px solid pink;
+            background: url(images/lili.jpg) repeat-x;
+        }
+        .yli li a:hover,.zli li a:hover{
+            background: url(images/abg.gif) repeat-x;
+        }
+        #center {
+            border-left: 1px solid pink;
+            border-right: 1px solid pink;
+        }
+    </style>
+    <script src="jquery-3.0.0.js"></script>
+    <script>
+        $(function () {
+            // $(".zli>ul").lastChild("li").css("backgroundColor","red");
+           // $(".zli ul li:last-child").css("fontSize","18px");
+           //  $(".zli>ul li:last-child").css("backgroundColor","red");
+            $(".zli>ul>li").mouseenter(function () {
+                $("#center>li:eq(" + $(this).index() + ")").show().siblings().hide();
+            });
+            $("#right>li").mouseenter(function () {
+                $(".center>li").eq($(this).index() + 9).show().siblings().hide();
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="w">
+    <div class="zli">
+        <ul>
+            <li><a href="#">女靴</a></li>
+            <li><a href="#">雪地靴</a></li>
+            <li><a href="#">冬裙</a></li>
+            <li><a href="#">呢大衣</a></li>
+            <li><a href="#">毛衣</a></li>
+            <li><a href="#">棉服</a></li>
+            <li><a href="#">女裤</a></li>
+            <li><a href="#">羽绒服</a></li>
+            <li><a href="#">牛仔裤</a></li>
+        </ul>
+    </div>
+    <div class="cimg">
+        <ul id="center">
+            <li><a href="#"><img src="images/女靴.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/雪地靴.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/冬裙.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/呢大衣.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/毛衣.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/棉服.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/女裤.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/羽绒服.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/牛仔裤.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/女包.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/男靴.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/登山鞋.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/皮带.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/围巾.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/皮衣.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/男毛衣.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/男棉服.jpg" width="240" height="235"/></a></li>
+            <li><a href="#"><img src="images/男包.jpg" width="240" height="235"/></a></li>
+
+        </ul>
+    </div>
+    <div class="yli">
+        <ul id="right">
+            <li><a href="#">女包</a></li>
+            <li><a href="#">男靴</a></li>
+            <li><a href="#">登山鞋</a></li>
+            <li><a href="#">皮带</a></li>
+            <li><a href="#">围巾</a></li>
+            <li><a href="#">皮衣</a></li>
+            <li><a href="#">男毛衣</a></li>
+            <li><a href="#">男棉服</a></li>
+            <li><a href="#">男包</a></li>
+        </ul>
+
+    </div>
+</div>
+</body>
+</html>

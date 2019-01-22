@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        (function (win) {
+            function Random1() {
+
+            };
+            Random1.prototype.getRandom = function () {
+                return Math.ceil(Math.random()*10);
+            };
+            var v1 = new Random1();
+            win.w1 = v1;
+        })(window);
+       /* w1 = new random();*/
+        console(w1.getRandom());
+        (function (win) {
+            function Random1() {
+
+            };
+            Random1.prototype.getRandom = function () {
+                return Math.ceil(Math.random()*10);
+            };
+            var v1 = new Random1();
+            win.w1 = v1;
+        })(window);
+        console.log(w1.getRandom())
+    </script>
+</head>
+<body>
+
+</body>
+</html>

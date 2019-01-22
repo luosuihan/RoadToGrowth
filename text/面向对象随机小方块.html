@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .map{
+            margin: 10px auto;
+            width: 800px;
+            height: 600px;
+            background-color: #9d9d9d;
+            position: relative;
+        }
+    </style>
+
+</head>
+<body>
+<div class="map"></div>
+<script>
+    //随机数
+    (function (win) {
+        function Random1() {
+        };
+        Random1.prototype.getRandom = function (min,max) {
+            return Math.floor(Math.random()*(max-min)+min);
+        };
+        win.Random = new Random1();
+    })(window);
+    //随机小方块
+    (function (wind) {
+        var map=document.querySelector(".map");
+        console.log("宽 ："+map.offsetWidth+"， 高 : "+map.offsetHeight);
+        function Rectangle(width,height,color) {
+            this.width = width||20;
+            this.height = height||20;
+            this.color = color;
+            this.x=0;
+            this.y=0;
+            this.element=document.createElement("div");
+        };
+        //初始化
+        Rectangle.prototype.init = function (map) {
+            var div = this.element;
+            div.style.width = this.width+"px";
+            div.style.height = this.height+"px";
+            div.style.backgroundColor = this.color;
+            div.style.position="absolute";
+            map.appendChild(div);
+            this.randomPosition(map);
+
+           // console.log(this.x+"===="+this.y);
+        };
+        //画出随机数的位置
+        Rectangle.prototype.randomPosition = function (map) {
+            var x1=Random.getRandom(0,map.offsetWidth/this.width)*this.width;
+            var y1=Random.getRandom(0,map.offsetHeight/this.height)*this.height;
+            this.x = x1 ;
+            this.y = y1 ;
+            var div=this.element;
+            div.style.left=this.x+"px";
+            div.style.top=this.y+"px";
+            console.log("坐标 ： "+this.x+"===="+this.y);
+        };
+        var rectangle = new Rectangle(20,20,"red");
+        rectangle.init(map);
+        wind.map = map;
+        wind.rectangle = rectangle;
+       /* wind.rec = rect;
+        wind.map = map;*/
+    })(window);
+    /*rec.init(map);*/
+    (function () {
+        //var map = document.querySelector(".map");
+        // rectangle.x1
+        //小方块坐标
+        console.log(" x1 = "+rectangle.x+" ,y1 = "+rectangle.y);
+        function Snake(swidth,sheight,scolor) {
+            this.width = swidth || 50;
+            this.height = sheight || 20;
+            this.color = scolor;
+            //小蛇位移坐标
+            this.sx = 0;
+            this.sy = 0;
+            this.element = document.createElement("div");
+        }
+        Snake.prototype.init = function () {
+            var div = this.element;
+            div.style.width = this.width+"px";
+            div.style.height = this.height+"px";
+            div.style.backgroundColor = this.color;
+            div.style.position = "absolute";
+            map.appendChild(div);
+            //移动小蛇
+            this.moveSnake();
+        };
+        Snake.prototype.moveSnake = function () {
+            if (this.sx == rectangle.x || this.sy == rectangle.y){
+                var div = this.element;
+                div.style.width = (this.width+rectangle.width)+"px";
+            }
+        };
+        var sanke  = new Snake(50,20,"green");
+        //while (true){
+            sanke.init();
+        //}
+    })();
+</script>
+</body>
+</html>

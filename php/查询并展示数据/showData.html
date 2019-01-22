@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>展示员工信息emp表</title>
+    <style>
+        th{
+            padding: 0 15px;
+        }
+    </style>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>员工编号</th>
+        <th>员工姓名</th>
+        <th>员工岗位</th>
+        <th>mgr编号</th>
+        <th>入职时间</th>
+        <th>员工工资</th>
+        <th>员工奖金</th>
+        <th>员工部门</th>
+    </tr>
+    <?php foreach($employee_list as $emp):?>
+    <tr>
+        <th><?php echo $emp['empno'];?></th>
+        <th><?php echo $emp['ename'];?></th>
+        <th><?php echo $emp['job'];?></th>
+        <th><?php echo $emp['mgr'];?></th>
+        <th><?php echo $emp['hiredate'];?></th>
+        <th><?php echo $emp['sal'];?></th>
+        <th><?php echo $emp['comm'];?></th>
+        <th><?php echo $emp['deptno'];?></th>
+    </tr>
+    <?php endforeach;?>
+</table>
+<h5>返回多少条数据 :<?php echo count($employee_list)?> </h5>
+</body>
+</html>

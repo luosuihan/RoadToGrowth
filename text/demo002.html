@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>闭包</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: #e5d790;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="按钮" id="btn">
+<div id="dv"></div>
+<script>
+    function my(id) {
+        return document.getElementById(id);
+    }
+    my("btn").onclick = function () {
+        my("dv").style.display = "block";
+    }
+    /*function F1() {
+        var num = 10;
+        return function () {
+            num++;
+            return num;
+        }
+    }
+    var  f1 = F1();
+    console.log(f1());
+    console.log(f1());
+    console.log(f1());*/
+</script>
+</body>
+</html>

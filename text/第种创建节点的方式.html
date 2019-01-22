@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{}
+    </style>
+</head>
+<body>
+<input type="button" id="btn" value="时不时点一下">
+<div id="dv"></div>
+<script>
+    var games = ["寒冰","轮子妈","刀锋","蓝枪"];
+    function my$(id) {
+        return document.getElementById(id);
+    }
+    my$("btn").onclick = function () {
+        var objUl = document.createElement('ul');
+        console.log("objUI = "+objUl);
+        my$("dv").appendChild(objUl);
+        for (var i = 0;i<games.length;i++){
+            var objLi = document.createElement("li");
+           /* var uls = document.getElementsByTagName("ul");
+            var lis = document.getElementsByTagName("li");*/
+           /* lis[i].innerText = games[i];*/
+            objLi.innerHTML = games[i];
+            objUl.appendChild(objLi);
+        }
+    }
+
+</script>
+</body>
+</html>

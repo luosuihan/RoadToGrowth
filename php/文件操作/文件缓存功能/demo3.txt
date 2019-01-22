@@ -1,0 +1,350 @@
+
+01-19 10:22:32.863 31633 31726 D         : memsiclily accu: 0.018998, 0, 0, 0, 0
+01-19 10:22:32.863 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:32.864 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:32.864 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:32.864 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:32.864 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:32.882 31633 31726 D         : memsiclily accu: 0.019004, 0, 0, 0, 0
+01-19 10:22:32.882 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:32.883 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:32.883 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:32.883 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:32.883 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:32.897   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:32.897   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1412) [SIM_MNGR] 1412 EN_SIM:atcmd = (AT+CMEE=1)
+01-19 10:22:32.897   344   760 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:32.897   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:32.897   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   67) EVENT_MDMNGR_ATCMD_REQ@MDMNGR, priv_data = f6f2eb80, channel = 3, cmd = (AT+CMEE=1) (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:67)
+01-19 10:22:32.897   344   743 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:32.898   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  439) rilproxy_task_hdl(), receive event = 401
+01-19 10:22:32.898   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  505) RILD is disconnected
+01-19 10:22:32.898   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 103 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:32.898   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  115) EVENT_MDMNGR_ATCMD_RESP@MDMNGR (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:115)
+01-19 10:22:32.898   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  122) event_req = f6f2eb80, ID = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:122)
+01-19 10:22:32.898   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  125) atcmd_resp->priv_data = f6f2ee80 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:125)
+01-19 10:22:32.898   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:32.898   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1434) [SIM_MNGR] 1434 EN_SIM:EVENT_MDMNGR_ATCMD_RESP,event_id = 222, event_req = 0xf6f2ee80, result = 5, str = ()
+01-19 10:22:32.899   344   764 W MAL-Daemon:  (             simmngr_srv, 3503) [SIM_MNGR] 3503 EN_SIM:simmngr_srv() SIM SET CMEE FAIL,result=3,error code=100,continue to retry!!
+01-19 10:22:32.902 31633 31726 D         : memsiclily accu: 0.019228, 0, 0, 0, 0
+01-19 10:22:32.902 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:32.902 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:32.902 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:32.902 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:32.902 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:32.920 31633 31726 D         : memsiclily accu: 0.018770, 0, 0, 0, 0
+01-19 10:22:32.920 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:32.921 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:32.921 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:32.921 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:32.921 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:32.939 31633 31726 D         : memsiclily accu: 0.019003, 0, 0, 0, 0
+01-19 10:22:32.940 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:32.940 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:32.940 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:32.940 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:32.940 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:32.958 31633 31726 D         : memsiclily accu: 0.018999, 0, 0, 0, 0
+01-19 10:22:32.958 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:32.959 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:32.959 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:32.959 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:32.959 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:32.977 31633 31726 D         : memsiclily accu: 0.018998, 0, 0, 0, 0
+01-19 10:22:32.977 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:32.978 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:32.978 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:32.978 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:32.978 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:32.996 31633 31726 D         : memsiclily accu: 0.019005, 0, 0, 0, 0
+01-19 10:22:32.996 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:32.997 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:32.997 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:32.997 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:32.997 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:32.999   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:32.999   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1412) [SIM_MNGR] 1412 EN_SIM:atcmd = (AT+CMEE=1)
+01-19 10:22:33.000   344   760 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.000   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.000   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   67) EVENT_MDMNGR_ATCMD_REQ@MDMNGR, priv_data = f6f2ed80, channel = 3, cmd = (AT+CMEE=1) (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:67)
+01-19 10:22:33.000   344   743 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.000   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  439) rilproxy_task_hdl(), receive event = 401
+01-19 10:22:33.000   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  505) RILD is disconnected
+01-19 10:22:33.001   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 103 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.001   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  115) EVENT_MDMNGR_ATCMD_RESP@MDMNGR (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:115)
+01-19 10:22:33.001   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  122) event_req = f6f2ed80, ID = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:122)
+01-19 10:22:33.001   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  125) atcmd_resp->priv_data = f6f2ea80 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:125)
+01-19 10:22:33.002   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:33.002   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1434) [SIM_MNGR] 1434 EN_SIM:EVENT_MDMNGR_ATCMD_RESP,event_id = 222, event_req = 0xf6f2ea80, result = 5, str = ()
+01-19 10:22:33.003   344   764 W MAL-Daemon:  (             simmngr_srv, 3503) [SIM_MNGR] 3503 EN_SIM:simmngr_srv() SIM SET CMEE FAIL,result=3,error code=100,continue to retry!!
+01-19 10:22:33.015 31633 31726 D         : memsiclily accu: 0.018998, 0, 0, 0, 0
+01-19 10:22:33.015 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.016 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.016 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.016 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.016 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.034 31633 31726 D         : memsiclily accu: 0.018999, 0, 0, 0, 0
+01-19 10:22:33.035 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.035 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.035 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.035 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.035 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.053 31633 31726 D         : memsiclily accu: 0.019002, 0, 0, 0, 0
+01-19 10:22:33.053 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.054 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.054 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.054 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.054 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.072 31633 31726 D         : memsiclily accu: 0.018992, 0, 0, 0, 0
+01-19 10:22:33.073 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.073 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.073 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.073 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.073 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.091 31633 31726 D         : memsiclily accu: 0.019019, 0, 0, 0, 0
+01-19 10:22:33.091 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.092 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.092 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.092 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.092 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.104   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:33.104   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1412) [SIM_MNGR] 1412 EN_SIM:atcmd = (AT+CMEE=1)
+01-19 10:22:33.104   344   760 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.104   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.104   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   67) EVENT_MDMNGR_ATCMD_REQ@MDMNGR, priv_data = f6f2ee80, channel = 3, cmd = (AT+CMEE=1) (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:67)
+01-19 10:22:33.104   344   743 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.105   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  439) rilproxy_task_hdl(), receive event = 401
+01-19 10:22:33.105   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  505) RILD is disconnected
+01-19 10:22:33.105   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 103 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.105   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  115) EVENT_MDMNGR_ATCMD_RESP@MDMNGR (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:115)
+01-19 10:22:33.105   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  122) event_req = f6f2ee80, ID = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:122)
+01-19 10:22:33.105   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  125) atcmd_resp->priv_data = f6f2eb80 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:125)
+01-19 10:22:33.105   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:33.106   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1434) [SIM_MNGR] 1434 EN_SIM:EVENT_MDMNGR_ATCMD_RESP,event_id = 222, event_req = 0xf6f2eb80, result = 5, str = ()
+01-19 10:22:33.106   344   764 W MAL-Daemon:  (             simmngr_srv, 3503) [SIM_MNGR] 3503 EN_SIM:simmngr_srv() SIM SET CMEE FAIL,result=3,error code=100,continue to retry!!
+01-19 10:22:33.110 31633 31726 D         : memsiclily accu: 0.019068, 0, 0, 0, 0
+01-19 10:22:33.111 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.111 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.111 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.111 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.112 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.130 31633 31726 D         : memsiclily accu: 0.018915, 0, 0, 0, 0
+01-19 10:22:33.130 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.130 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.130 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.130 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.131 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.148 31633 31726 D         : memsiclily accu: 0.019005, 0, 0, 0, 0
+01-19 10:22:33.148 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.149 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.149 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.149 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.149 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.167 31633 31726 D         : memsiclily accu: 0.019049, 0, 0, 0, 0
+01-19 10:22:33.168 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.168 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.168 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.168 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.168 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.186 31633 31726 D         : memsiclily accu: 0.018949, 0, 0, 0, 0
+01-19 10:22:33.186 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.187 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.187 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.187 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.187 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.205   344   757 D MAL-Daemon:  (void* rilproxy_cmd_resp_,  588) RIL Command thread try to connect the rild (rild-mal)
+01-19 10:22:33.205   344   757 E MAL-Daemon:  (void* rilproxy_cmd_resp_,  593) can't open socket : rild-mal (Connection refused)
+01-19 10:22:33.206   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:33.207   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1412) [SIM_MNGR] 1412 EN_SIM:atcmd = (AT+CMEE=1)
+01-19 10:22:33.207   344   760 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.207   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.207   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   67) EVENT_MDMNGR_ATCMD_REQ@MDMNGR, priv_data = f6f2ea80, channel = 3, cmd = (AT+CMEE=1) (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:67)
+01-19 10:22:33.207   344   743 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.207   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  439) rilproxy_task_hdl(), receive event = 401
+01-19 10:22:33.207   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  505) RILD is disconnected
+01-19 10:22:33.208   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 103 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.208   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  115) EVENT_MDMNGR_ATCMD_RESP@MDMNGR (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:115)
+01-19 10:22:33.208   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  122) event_req = f6f2ea80, ID = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:122)
+01-19 10:22:33.208   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  125) atcmd_resp->priv_data = f6f2ed80 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:125)
+01-19 10:22:33.208   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:33.208   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1434) [SIM_MNGR] 1434 EN_SIM:EVENT_MDMNGR_ATCMD_RESP,event_id = 222, event_req = 0xf6f2ed80, result = 5, str = ()
+01-19 10:22:33.209   344   764 W MAL-Daemon:  (             simmngr_srv, 3503) [SIM_MNGR] 3503 EN_SIM:simmngr_srv() SIM SET CMEE FAIL,result=3,error code=100,continue to retry!!
+01-19 10:22:33.210 31633 31726 D         : memsiclily accu: 0.019706, 0, 0, 0, 0
+01-19 10:22:33.210 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.211 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.211 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.211 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.211 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.224 31633 31726 D         : memsiclily accu: 0.018293, 0, 0, 0, 0
+01-19 10:22:33.224 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.225 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.225 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.225 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.225 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.243 31633 31726 D         : memsiclily accu: 0.019001, 0, 0, 0, 0
+01-19 10:22:33.243 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.244 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.244 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.244 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.244 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.262 31633 31726 D         : memsiclily accu: 0.018995, 0, 0, 0, 0
+01-19 10:22:33.262 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.263 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.263 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.263 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.263 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.278   344   758 D MAL-Daemon:  (void* rilproxy_urc_threa,  879) RIL URC thread try to connect the rild (rild-mal-at)
+01-19 10:22:33.278   344   758 E MAL-Daemon:  (void* rilproxy_urc_threa,  886) can't open socket : rild-mal-at
+01-19 10:22:33.281 31633 31726 D         : memsiclily accu: 0.019006, 0, 0, 0, 0
+01-19 10:22:33.282 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.282 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.282 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.282 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.282 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.300 31633 31726 D         : memsiclily accu: 0.018996, 0, 0, 0, 0
+01-19 10:22:33.300 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.301 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.301 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.301 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.301 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.310   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:33.310   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1412) [SIM_MNGR] 1412 EN_SIM:atcmd = (AT+CMEE=1)
+01-19 10:22:33.310   344   760 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.310   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.310   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   67) EVENT_MDMNGR_ATCMD_REQ@MDMNGR, priv_data = f6f2eb80, channel = 3, cmd = (AT+CMEE=1) (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:67)
+01-19 10:22:33.310   344   743 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.311   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  439) rilproxy_task_hdl(), receive event = 401
+01-19 10:22:33.311   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  505) RILD is disconnected
+01-19 10:22:33.311   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 103 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.311   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  115) EVENT_MDMNGR_ATCMD_RESP@MDMNGR (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:115)
+01-19 10:22:33.312   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  122) event_req = f6f2eb80, ID = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:122)
+01-19 10:22:33.312   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  125) atcmd_resp->priv_data = f6f2ee80 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:125)
+01-19 10:22:33.312   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:33.312   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1434) [SIM_MNGR] 1434 EN_SIM:EVENT_MDMNGR_ATCMD_RESP,event_id = 222, event_req = 0xf6f2ee80, result = 5, str = ()
+01-19 10:22:33.313   344   764 W MAL-Daemon:  (             simmngr_srv, 3503) [SIM_MNGR] 3503 EN_SIM:simmngr_srv() SIM SET CMEE FAIL,result=3,error code=100,continue to retry!!
+01-19 10:22:33.319 31633 31726 D         : memsiclily accu: 0.019007, 0, 0, 0, 0
+01-19 10:22:33.320 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.320 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.320 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.320 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.320 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.338 31633 31726 D         : memsiclily accu: 0.018995, 0, 0, 0, 0
+01-19 10:22:33.338 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.339 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.339 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.339 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.339 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.357 31633 31726 D         : memsiclily accu: 0.019031, 0, 0, 0, 0
+01-19 10:22:33.358 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.358 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.358 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.358 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.358 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.376 31633 31726 D         : memsiclily accu: 0.018964, 0, 0, 0, 0
+01-19 10:22:33.376 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.377 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.377 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.377 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.377 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.395 31633 31726 D         : memsiclily accu: 0.019007, 0, 0, 0, 0
+01-19 10:22:33.395 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.396 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.396 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.396 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.396 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.413   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:33.413   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1412) [SIM_MNGR] 1412 EN_SIM:atcmd = (AT+CMEE=1)
+01-19 10:22:33.413   344   760 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.414   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.414   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   67) EVENT_MDMNGR_ATCMD_REQ@MDMNGR, priv_data = f6f2ed80, channel = 3, cmd = (AT+CMEE=1) (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:67)
+01-19 10:22:33.414   344   743 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.414   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  439) rilproxy_task_hdl(), receive event = 401
+01-19 10:22:33.414   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  505) RILD is disconnected
+01-19 10:22:33.415   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 103 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.415   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  115) EVENT_MDMNGR_ATCMD_RESP@MDMNGR (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:115)
+01-19 10:22:33.415   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  122) event_req = f6f2ed80, ID = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:122)
+01-19 10:22:33.415   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  125) atcmd_resp->priv_data = f6f2ea80 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:125)
+01-19 10:22:33.415   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:33.415   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1434) [SIM_MNGR] 1434 EN_SIM:EVENT_MDMNGR_ATCMD_RESP,event_id = 222, event_req = 0xf6f2ea80, result = 5, str = ()
+01-19 10:22:33.416   344   764 W MAL-Daemon:  (             simmngr_srv, 3503) [SIM_MNGR] 3503 EN_SIM:simmngr_srv() SIM SET CMEE FAIL,result=3,error code=100,continue to retry!!
+01-19 10:22:33.416 31633 31726 D         : memsiclily accu: 0.020932, 0, 0, 0, 0
+01-19 10:22:33.416 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.416 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.417 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.417 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.417 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.433 31633 31726 D         : memsiclily accu: 0.017070, 0, 0, 0, 0
+01-19 10:22:33.433 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.434 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.434 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.434 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.434 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.452 31633 31726 D         : memsiclily accu: 0.018997, 0, 0, 0, 0
+01-19 10:22:33.452 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.453 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.453 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.453 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.453 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.471 31633 31726 D         : memsiclily accu: 0.019026, 0, 0, 0, 0
+01-19 10:22:33.472 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.472 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.472 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.472 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.472 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.490 31633 31726 D         : memsiclily accu: 0.019058, 0, 0, 0, 0
+01-19 10:22:33.491 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.491 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.491 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.491 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.491 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.509 31633 31726 D         : memsiclily accu: 0.018923, 0, 0, 0, 0
+01-19 10:22:33.510 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.510 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.510 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.510 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.510 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.517   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:33.517   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1412) [SIM_MNGR] 1412 EN_SIM:atcmd = (AT+CMEE=1)
+01-19 10:22:33.517   344   760 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.517   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.517   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   67) EVENT_MDMNGR_ATCMD_REQ@MDMNGR, priv_data = f6f2ee80, channel = 3, cmd = (AT+CMEE=1) (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:67)
+01-19 10:22:33.517   344   743 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+01-19 10:22:33.517   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  439) rilproxy_task_hdl(), receive event = 401
+01-19 10:22:33.517   344   759 E MAL-Daemon:  (void* rilproxy_task_hdl(,  505) RILD is disconnected
+01-19 10:22:33.517   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,   36) mdmngr_task_hdl(), receive event = 103 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:36)
+01-19 10:22:33.518   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  115) EVENT_MDMNGR_ATCMD_RESP@MDMNGR (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:115)
+01-19 10:22:33.518   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  122) event_req = f6f2ee80, ID = 101 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:122)
+01-19 10:22:33.518   344   743 D MAL-Daemon:  (         mdmngr_task_hdl,  125) atcmd_resp->priv_data = f6f2eb80 (vendor/mediatek/proprietary/frameworks/opt/mal/entity/mdmngr/mdmngr.c:125)
+01-19 10:22:33.518   344   760 E MAL-Daemon:  (     simmngr_cache_reply,  297) [SIM_MNGR]  297 EN_SIM:Non cache data request()!!
+01-19 10:22:33.518   344   760 I MAL-Daemon:  (        simmngr_task_hdl, 1434) [SIM_MNGR] 1434 EN_SIM:EVENT_MDMNGR_ATCMD_RESP,event_id = 222, event_req = 0xf6f2eb80, result = 5, str = ()
+01-19 10:22:33.518   344   764 W MAL-Daemon:  (             simmngr_srv, 3503) [SIM_MNGR] 3503 EN_SIM:simmngr_srv() SIM SET CMEE FAIL,result=3,error code=100,continue to retry!!
+01-19 10:22:33.528 31633 31726 D         : memsiclily accu: 0.018997, 0, 0, 0, 0
+01-19 10:22:33.528 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.529 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.529 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.529 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.529 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.547 31633 31726 D         : memsiclily accu: 0.019003, 0, 0, 0, 0
+01-19 10:22:33.547 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.548 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.548 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.548 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.548 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.566 31633 31726 D         : memsiclily accu: 0.018988, 0, 0, 0, 0
+01-19 10:22:33.566 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.567 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.567 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.567 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.567 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.585 31633 31726 D         : memsiclily accu: 0.019001, 0, 0, 0, 0
+01-19 10:22:33.585 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.586 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.586 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.586 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.586 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833
+01-19 10:22:33.604 31633 31726 D         : memsiclily accu: 0.019003, 0, 0, 0, 0
+01-19 10:22:33.604 31633 31726 D         : lilygyro var:0.000000,0.000000,0.000000
+01-19 10:22:33.605 31633 31726 D         : lilygyro k:0.000000,0.000000,0.000000
+01-19 10:22:33.605 31633 31726 D         : lilygyro zzzzzzzzzzzzzzzzzzz
+01-19 10:22:33.605 31633 31726 D         : memsiclily status 1 1 0 1 
+01-19 10:22:33.605 31633 31726 E SensorHAL: memsic ypr : 210.934289, 1.862280, -12.815833

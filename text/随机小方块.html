@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            margin: 10px auto;
+            background-color: #9d9d9d;
+            width: 700px;
+            height: 600px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div id="dv"></div>
+<script>
+    function my$(id) {
+        return document.getElementById(id);
+    }
+    (function (win) {
+        
+        function Random() {
+            
+        }
+        Random.prototype.fk = function () {
+            var objdiv = document.createElement("div");
+            my$("dv").appendChild(objdiv);
+            objdiv.style.width = "10px";
+            objdiv.style.height = "10px";
+            objdiv.style.backgroundColor = "red";
+            objdiv.style.position = "absolute"
+            //if (Math.random()*5)
+            var z = parseInt(Math.ceil(Math.random()*70)*10);
+            var y = parseInt(Math.ceil(Math.random()*60)*10);
+            objdiv.style.left = z + "px";
+            objdiv.style.top = y + "px";
+        }
+        win.rectangle = new Random();
+    })(window);
+    var rect = rectangle;
+    rect.fk();
+</script>
+</body>
+</html>

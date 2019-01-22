@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img{
+            position: absolute;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+<img src="../demoimg/1-small.jpg" alt="" id="ig">
+<script>
+   /* function my1$(id) {
+        return document.getElementById(id);
+    }
+    console.log(document.body.offsetHeight);
+    document.onmousemove = function (e) {
+        //if (my1$("ig").style.right <200) {
+            my1$("ig").style.left = e.clientX+"px";
+            my1$("ig").style.top = e.clientY+"px";
+        //}
+
+    }*/
+
+   console.log("win1 = "+window.pageYOffset);
+   console.log("document1 = "+document.documentElement.scrollTop);
+   console.log("body1 = "+document.body.scrollTop);
+</script>
+</body>
+</html>

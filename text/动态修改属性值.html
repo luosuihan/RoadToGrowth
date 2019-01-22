@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<input type="button" id="btn" value="按钮">
+<div id="dv"></div>
+<script>
+    function my$(id){
+        return document.getElementById(id);
+    }
+    console.log(window.getComputedStyle(my$("dv"),null));
+    my$("btn").onclick = function () {
+        /*var current = */
+
+        animation(my$("dv"),800);
+    };
+    function getStyle(element,attr) {
+        return window.getComputedStyle ? window.getComputedStyle(element,null)[attr] : element.currentStyle[attr]||0;
+    }
+    function animation(element,target) {
+        clearInterval(element.timeId);
+        element.timeId = setInterval(function () {
+            var current = element.offsetLeft;
+            var step = (target - current) / 10;
+            step = step > 0 ? Math.ceil(step):Math.floor(step);
+            current += step;
+            element.style.left = current + "px";
+            if (current == target){
+                clearInterval(element.timeId);
+            }
+        },20)
+    }
+</script>
+</body>
+</html>

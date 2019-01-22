@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            height: 500px;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        .div1 {
+            width: 158px;
+            height: 298px;
+            border: 1px solid #0EA9B1;
+            transform: translateX(-44%);
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <input type="text" id="ip" value="">
+</div>
+<script>
+    function my$(id) {
+        return document.getElementById(id);
+    }
+
+    var arr = ["老孙头", "蜘蛛精", "牛魔王", "八戒", "老师傅", "老铁", "悟空", "八戒一号"];
+    var newarr = [];
+    my$("ip").onkeyup = function () {
+        var ipvalue = this.value;
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i].indexOf(ipvalue, 0) == 0 && ipvalue != "") {
+                //console.log("旧数组 = "+arr[i]);
+                newarr.push(arr[i]);
+            }
+        }
+        console.log(this.value.length +","+newarr.length);
+        if (this.value.length == 0 || newarr.length == 0){
+            if (my$("sss")){
+                my$("box").removeChild("sss");
+                // return;
+            }
+            return;
+        }
+        var objdiv = document.createElement("div");
+        my$("box").appendChild(objdiv);
+        objdiv.id = "sss";
+        objdiv.style.width = "158px";
+        objdiv.style.height = "300px";
+        objdiv.style.border = "1px solid #0EA9B1";
+        objdiv.style.transform = "translateX(-44%)";
+    }
+
+
+    /*my$("ip").onclick = function () {
+        my$("dv2").style.display = "block";
+    }*/
+    /* var str = "老孙头";
+     console.log(str.indexOf("孙",0));*/
+</script>
+</body>
+</html>

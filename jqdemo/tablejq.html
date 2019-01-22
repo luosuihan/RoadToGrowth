@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .w{
+            margin: 100px auto;
+            width: 1200px;
+        }
+        .tupian{
+            width: 1000px;
+            height: 475px;
+            /*overflow: hidden;*/
+        }
+        .tupian li{
+            float: left;
+        }
+        ul{
+            list-style: none;
+        }
+        .nav{
+            width: 300px;
+            height: 45px;
+            line-height: 45px;
+            border: 1px solid pink;
+        }
+        .nav li{
+            float: left;
+            /*margin: 0 5px;*/
+        }
+        .nav li a{
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .nav ul .active {
+            border-color: red;
+            border-bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+<div class="w">
+    <div class="nav">
+        <ul>
+            <li class="active"><a>国际大牌</a></li>
+            <li><a>国际名牌</a></li>
+            <li><a>清洁用品</a></li>
+            <li><a>男士精品</a></li>
+        </ul>
+    </div>
+    <div class="tupian">
+        <ul>
+            <li><img src="images/guojidapai.jpg" width="1000" height="475"/></li>
+            <li><img src="images/guozhuangmingpin.jpg" width="1000" height="475"/></li>
+            <li><img src="images/nanshijingpin.jpg" width="1000" height="475"/></li>
+            <li><img src="images/qingjieyongpin.jpg" width="1000" height="475"/></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

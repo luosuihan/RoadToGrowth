@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //函数自调用
+    (function (win) {
+        function randomNumber() {
+            // this.age = age;
+        }
+        randomNumber.prototype.mRandom = function () {
+            return Math.ceil(Math.random()*10);
+        };
+        var ss = new randomNumber();
+        win.age11 = ss;
+    })(window);
+    // var s = ss;
+        console.log(age11.mRandom())
+      /* (function (win) {
+         var num=10;//局部变量
+         //js是一门动态类型的语言,对象没有属性,点了就有了
+         win.ages=num;
+       })(window);
+       console.log(ages);*/
+</script>
+</body>
+</html>

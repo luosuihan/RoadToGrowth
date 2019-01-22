@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<input type="button" id="btnstart" value="开始">
+<input type="button" id="btnstop" value="结束">
+<div id="dv">
+    <img src="../demoimg/1-small.jpg" alt="">
+    <img src="../demoimg/2-small.jpg" alt="">
+</div>
+<script>
+    function my$(id) {
+        return document.getElementById(id);
+    }
+    var time11 = "";
+    my$("btnstart").onclick = function () {
+
+        time111 = setInterval(function () {
+            var left = parseInt(Math.random()*100+1);
+            var top = parseInt(Math.random()*100+1);
+            dv.style.left = left+"px";
+            dv.style.top = top+"px";
+        },10);
+    }
+    my$("btnstop").onclick = function () {
+        clearInterval(time111);
+    }
+</script>
+</body>
+</html>

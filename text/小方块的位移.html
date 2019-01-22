@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            margin-top: 10px;
+            width: 150px;
+            height: 50px;
+            background-color: #2288f6;
+        }
+    </style>
+</head>
+<body>
+<input type="button" id="btn4" value="移动400px">
+<input type="button" id="btn8" value="移动800px">
+<div id="dv"></div>
+<script>
+    function my$(id) {
+        return document.getElementById(id);
+    }
+    my$("btn4").onclick = function () {
+        var step = 10;
+        setInterval(function () {
+            if (step<=400){
+                my$("dv").style.marginLeft = step+"px";
+                step++;
+            }
+        },10)
+    }
+    my$("btn8").onclick = function () {
+        var step = 10;
+        setInterval(function () {
+            if (step<=800){
+                my$("dv").style.marginLeft = step+"px";
+                step++;
+            }
+        },10)
+    }
+</script>
+</body>
+</html>

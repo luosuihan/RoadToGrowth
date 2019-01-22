@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Fi(name1,size1,time) {
+        this.name1 = name1;
+        this.size1 = size1;
+        this.time = time;
+    }
+    var f1 = new Fi("axxx","400m","2018");
+    var f2 = new Fi("cxxx","10m","2012");
+    var f3 = new Fi("bxxx","300m","2017");
+    var attr = [f1,f2,f3];
+    function fff(attr) {
+        return function getAttr(obj1,obj2) {
+            if (obj1[attr] > obj2[attr]){
+                return 1;
+            } else if(obj1[attr] == obj2[attr]){
+                return 0;
+            }else {
+                return -1;
+            }
+        };
+    }
+    var s = fff("size1");
+    attr.sort(s);
+    for (var i = 0 ; i<attr.length ; i++){
+        console.log(attr[i].name1 + "====>" + attr[i].size1 + "===>" + attr[i].time);
+    }
+</script>
+</body>
+</html>

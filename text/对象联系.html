@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;;
+            height: 100px;
+            background-color: #e5d790;
+        }
+    </style>
+</head>
+<body>
+<input type="button" id="btn" value="按钮">
+<div id="dv"></div>
+<script>
+    function my$(id) {
+        return document.getElementById(id);
+    }
+    function setStyle(objbtn,objdiv,json) {
+        this.objbtn = objbtn;
+        this.objdiv = objdiv;
+        this.json = json;
+    }
+    setStyle.prototype.init = function () {
+        var dq = this;
+        this.objbtn.onclick = function () {
+            console.log("onclick");
+            for (var ii in dq.json){
+                console.log(dq.objdiv.style[ii]);
+                dq.objdiv.style[ii] = dq.json[ii];
+            }
+        }
+
+    };
+    var json = {
+        "width":"800px",
+        "height":"200px",
+        "backgroundColor":"red",
+        "border":"3px solid #000"
+    };
+    var cs = new setStyle(my$("btn"),my$("dv"),json);
+    cs.init();
+</script>
+</body>
+</html>
