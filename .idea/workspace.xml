@@ -2,318 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a2c5438-ab18-451a-9cd9-2386e82e9ebd" name="Default Changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demoimg/1-small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demoimg/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demoimg/2-small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demoimg/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demoimg/4-small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demoimg/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/QQ截图20121215110234.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/abg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/guojidapai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/guozhuangmingpin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/lili.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/nanshijingpin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/qingjieyongpin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/冬裙.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/呢大衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/围巾.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/女包.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/女裤.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/女靴.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/棉服.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/毛衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/牛仔裤.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/男包.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/男棉服.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/男毛衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/男靴.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/登山鞋.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/皮带.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/皮衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/羽绒服.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/images/雪地靴.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/libg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/fonts/STHUPO.TTF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/音乐列表/周传雄 - 有没有一首歌会让你想起我.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/cloud.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/next_1(1).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/prev_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/slidepic1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/slidepic2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/slidepic3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/slidepic4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/slidepic5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/slidepic6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/slidepic7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/slidepic8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/slidepic9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/201808221814119802.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/bluebg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/bot_pic01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/bot_pic02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/box_dh.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/codebg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/contact.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/freecall.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/freecall2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/gif-0865.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/head_bj.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/honor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/honors.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/hover_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/ico.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/ico080426_close.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/ico080426_dot.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/left.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/list_xlicon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/mail.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/mail_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/menuheadbj.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/mid_left_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/mid_mid_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/mid_right_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/more.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/more.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/msn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/pgnext.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/pgup.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/20160820115558.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/20170221145432915.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/arrow_more.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704061708081061.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704071134292792.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704071149387345.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704101605352250.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704101614363105.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704101627356610.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704111656322318.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704111700031432.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704111705005896.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704121651239960.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704121658524827.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704131643414718.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704131645218999.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704141511512201.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704141535464162.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704141547511881.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704171717452638.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704171723192946.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704181648325482.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201704181712104586.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201708161336306208.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201708251620339064.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201708251652057299.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201708251659236968.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/m_3190051_201708291133567221.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/sjrz_yes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/smrz_no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/picture/wxrz_no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/productleft.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/productleftdisable.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/productright.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/productrightdisable.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/qq.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/search.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/search_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/sole_logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/sole_logo_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/tel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/title_bg_new.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/topbtbg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/topmenu_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/treebg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/treebg_sel.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/videobg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/y3j.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/yuan-noselect.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/img/yuan-select.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/14-手风琴案例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/jdemo1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/jqdemo03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/jqdemo2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/jquery-3.0.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/sss.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/t.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/tabk.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/tablejq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdemo/选择框.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTools/elementID.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js节点/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js节点/切换背景图片.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js节点/搜索样式.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js节点/节点变色.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js节点/通过节点创建li.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/demo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/js/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/names.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/phpinfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/sss/DaoMySQLi.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/sss/order.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/sss/sss.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/cookie/1.setcookie.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/cookie/2.getcookie.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/cookie/3.cookie_lianxi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/cookie/4.cookie_crud.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/cookie/cart.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/cookie/order.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/cookie/sub/setcookie.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/session/1.set_session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/session/2.session_curd.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/session/3.check.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/session/form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/session/goods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/会话机制/session/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/函数" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/分页展示/goods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/分页展示/goods_template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/分页展示/msproperty.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/分页展示/page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/分页展示/textPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/checkCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/testCheckCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/案例/1.line.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/案例/2.imagerectangle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/案例/3.ellipse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/案例/4.image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/案例/5.imagettftext.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/案例/6.imagearc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/案例/7.use_captcha.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/案例/8.string.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/案例/Captcha.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/图片处理/案例/phpinfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/工具类/DaoMySQL.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/工具类/textDaoMysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/16.mkdir.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/17.rmdir.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/18.scan_dir.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/demo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/demo1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/myssql.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/text1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/写配置文件.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/文件拷贝删除上传下载/fileUoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/文件拷贝删除上传下载/文件操作.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/文件缓存功能/demo3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/文件缓存功能/插入数据.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/统计文件大小.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/读取文件.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/读取文件2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/文件操作/读取配置文件.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/查询并展示数据/DaoMysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/查询并展示数据/selectData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/查询并展示数据/showData.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/注入/sql.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/注入/sql注入.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/练习/textCard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/输出表格.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/音乐列表/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/音乐列表/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/音乐列表/music.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/7.fuzhi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/8.fuzhi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/9.fuzhi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/demo1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/set&amp;get练习.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/tex.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/this.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/构造函数.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/构造函数2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/自动加载/Cat1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/自动加载/Cat2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/自动加载/textCat.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/重写.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/重载.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/静态函数.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/高级教程/魔术函数.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/07事件阶段.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/demo00.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/demo002.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/demoooo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/dmeo1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/nav动画效果.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/ss.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/sss.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/zs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/冒泡阶段.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/动态修改属性值.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/动态修改属性值0.1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/动态修改属性值0.2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/动态创建表格.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/匀速.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/原形对象.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/定时器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/对象联系.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/将局部变量改为全局变量.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/小方块的位移.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/手风琴demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/搜索.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/旋转木马.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/轮播图.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/随机小方块.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/面向对象贪吃蛇.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text/面向对象随机小方块.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/仿华地网页/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/兼容性代码/10节点的兼容代码.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/10BOM.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/11系统对话框.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/12加载事件.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/13location对象.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/14history对象.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/15test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/16navigator对象.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/17定时器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/18一起摇起来.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/19案例一闪一闪亮晶晶.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/20案例美女时钟.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/BOM对象/星星点灯.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/jq/01-css操作.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/jq/02-class操作.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/jq/04-属性操作.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/jq/06-prop方法.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/jq/07-表格全选案例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/jq/08-三组基本动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/jq/09-滑入滑出动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/jq/10-淡入淡出动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/jq/13-自定义动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/jq/17-动态创建节点.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/jq/18-jquery创建与添加节点.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/事件/03绑定事件的区别.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/事件/04为元素解绑事件.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/事件/05为元素绑定事件和解绑事件的兼容代码.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/事件/06事件冒泡.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/事件/07事件阶段.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/事件/08为同一个元素绑定多个不同事件指向同一个事件处理函数.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/事件/09案例模拟百度搜索大项目.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/对象/15原型的简单的语法.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/继承/03apply和call方法的使用.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/继承/04总结apply和call方法的使用.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/继承/05bind方法.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/继承/06bind方法的使用.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/继承/07函数中几个成员.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/继承/10继承案例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/继承/11借用构造函数.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/继承/12组合继承.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/继承/13拷贝继承.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/案例/继承/21数组的函数调用.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/18综合案例/img/logo.png" afterPath="$PROJECT_DIR$/php/18综合案例/img/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/22.html" afterPath="$PROJECT_DIR$/22.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XM/css/index.css" afterPath="$PROJECT_DIR$/XM/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XM/index.html" afterPath="$PROJECT_DIR$/XM/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/text/第种创建节点的方式.html" afterPath="$PROJECT_DIR$/text/第种创建节点的方式.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/18综合案例/admin/index.html" afterPath="$PROJECT_DIR$/php/18综合案例/admin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/18综合案例/css/index.css" afterPath="$PROJECT_DIR$/php/18综合案例/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/18综合案例/index.html" afterPath="$PROJECT_DIR$/php/18综合案例/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/会话机制/text1.php" afterPath="$PROJECT_DIR$/php/会话机制/text1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/会话机制/text2.php" afterPath="$PROJECT_DIR$/php/会话机制/text2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/遗留问题" afterPath="$PROJECT_DIR$/php/遗留问题" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -388,51 +84,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="checkCode.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/图片处理/checkCode.php">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/18综合案例/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="608">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="函数" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/函数">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/18综合案例/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="140">
+              <caret line="138" column="24" lean-forward="false" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/会话机制/cookie/cart.php">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/18综合案例/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="273">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/会话机制/cookie/order.php">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2.getcookie.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/会话机制/cookie/2.getcookie.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="-780">
+              <caret line="559" column="17" lean-forward="false" selection-start-line="559" selection-start-column="4" selection-end-line="559" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -471,12 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/高级教程/this.php" />
-        <option value="$PROJECT_DIR$/php/高级教程/构造函数.php" />
-        <option value="$PROJECT_DIR$/php/高级教程/构造函数2.php" />
-        <option value="$PROJECT_DIR$/php/高级教程/魔术函数.php" />
-        <option value="$PROJECT_DIR$/php/高级教程/tex.php" />
-        <option value="$PROJECT_DIR$/php/高级教程/set&amp;get练习.php" />
         <option value="$PROJECT_DIR$/php/高级教程/自动加载/Cat1.php" />
         <option value="$PROJECT_DIR$/php/高级教程/自动加载/Cat2.php" />
         <option value="$PROJECT_DIR$/php/高级教程/自动加载/textCat.php" />
@@ -522,6 +202,12 @@
         <option value="$PROJECT_DIR$/php/图片处理/testCheckCode.php" />
         <option value="$PROJECT_DIR$/php/图片处理/checkCode.php" />
         <option value="$PROJECT_DIR$/php/函数" />
+        <option value="$PROJECT_DIR$/php/会话机制/text1.php" />
+        <option value="$PROJECT_DIR$/php/会话机制/text2.php" />
+        <option value="$PROJECT_DIR$/php/遗留问题" />
+        <option value="$PROJECT_DIR$/php/18综合案例/css/index.css" />
+        <option value="$PROJECT_DIR$/php/18综合案例/index.html" />
+        <option value="$PROJECT_DIR$/php/18综合案例/admin/index.html" />
       </list>
     </option>
   </component>
@@ -533,8 +219,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="94" />
+    <option name="y" value="88" />
     <option name="width" value="1938" />
     <option name="height" value="1060" />
   </component>
@@ -569,6 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -581,64 +268,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5text" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5text" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5text" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5text" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="会话机制" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5text" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5text" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="会话机制" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cookie" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -652,11 +284,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\htmlCode\H5text\php\会话机制" />
+      <recent name="D:\code\htmlCode\H5text\php\18综合案例\img" />
+      <recent name="D:\code\htmlCode\H5text\php\18综合案例\smarty" />
       <recent name="D:\code\htmlCode\H5text\php" />
+      <recent name="D:\code\htmlCode\H5text\php\会话机制" />
       <recent name="D:\code\htmlCode\H5text\php\图片处理\案例" />
-      <recent name="D:\code\htmlCode\H5text\php\js" />
-      <recent name="D:\code\htmlCode\H5text\php\文件操作\文件缓存功能" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\htmlCode\H5text\php\18综合案例\smarty" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -793,7 +428,9 @@
       <workItem from="1547901080457" duration="256000" />
       <workItem from="1547910265215" duration="848000" />
       <workItem from="1548032317931" duration="19602000" />
-      <workItem from="1548119472218" duration="2622000" />
+      <workItem from="1548119472218" duration="7512000" />
+      <workItem from="1548148372309" duration="2200000" />
+      <workItem from="1548205445171" duration="16275000" />
     </task>
     <task id="LOCAL-00001" summary="节点操作">
       <created>1544607432887</created>
@@ -813,15 +450,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290329000" />
+    <option name="totallyTimeSpent" value="313694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="1" />
-    <editor active="true" />
+    <frame x="94" y="88" width="1938" height="1060" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16354166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16354166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -832,6 +467,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -857,185 +493,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/文件操作/demo1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/demo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/demo3.txt" />
-    <entry file="file://$PROJECT_DIR$/php/文件操作/myssql.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/读取文件.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/读取文件2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/18.scan_dir.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/文件缓存功能/demo3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/PHP/DAY30  有问必答-项目完善/20170920 有问必答-项目完善/下午资料/0920review/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/文件缓存功能/插入数据.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/text1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/统计文件大小.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/注入/sql注入.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/文件拷贝删除上传下载/文件上传.php" />
-    <entry file="file://$PROJECT_DIR$/php/文件操作/文件拷贝删除上传下载/img/bs.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="909" column="24" lean-forward="false" selection-start-line="909" selection-start-column="17" selection-end-line="909" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/文件拷贝删除上传下载/img/20190119/upload_5c42efd4444e3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/js/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/分页展示/textpage.html" />
-    <entry file="file://$PROJECT_DIR$/php/文件操作/文件拷贝删除上传下载/fileUoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/文件拷贝删除上传下载/文件操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="765" column="23" lean-forward="false" selection-start-line="765" selection-start-column="9" selection-end-line="765" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/写配置文件.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/文件操作/读取配置文件.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/查询并展示数据/DaoMysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="87" column="9" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="87" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/分页展示/msproperty.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/分页展示/textPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <marker date="1548052796904" expanded="true" signature="923:974" ph="select count... ecs_order_goods" />
-            <marker date="1548052796904" expanded="true" signature="923:975" ph="select count... ecs_order_goods" />
-            <marker date="1548052796904" expanded="true" signature="1242:1295" ph="SELECT * FRO... tn_goods" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/文件操作/函数" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/gd/gd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="907" column="18" lean-forward="true" selection-start-line="907" selection-start-column="18" selection-end-line="907" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,10 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="42" />
-          <folding>
-            <marker date="1548052715135" expanded="true" signature="876:946" ph="..." />
-            <marker date="1548052715135" expanded="true" signature="876:1570" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,7 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-367">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-796">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,7 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,7 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2964">
           <caret line="76" column="20" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="76" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,15 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/会话机制/session/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
           <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,14 +632,219 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/函数">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="702">
           <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/会话机制/session/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/会话机制/session/goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/会话机制/session/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/会话机制/session/2.session_curd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/会话机制/session/3.check.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/会话机制/session/1.set_session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/会话机制/text2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/smarty-3.1.30/demo/configs/test.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/遗留问题">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/18综合案例/smarty/plugins/function.math.php" />
+    <entry file="file://$PROJECT_DIR$/php/会话机制/text1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xczx/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-991">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-913">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="559" column="17" lean-forward="false" selection-start-line="559" selection-start-column="4" selection-end-line="559" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/事件/05为元素绑定事件和解绑事件的兼容代码.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/事件/06事件冒泡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/事件/07事件阶段.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/事件/03绑定事件的区别.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="519" column="0" lean-forward="false" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/18综合案例/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/18综合案例/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="138" column="24" lean-forward="false" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/js/自定义属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/18综合案例/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

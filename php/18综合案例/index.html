@@ -2,9 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>问答首页</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        window.onload = function () {
+            function $myClassName(classname) {
+                return document.getElementsByClassName(classname);
+            }
+            function $myID(id) {
+                return document.getElementById(id);
+            }
+            var uid = $myID('staeuu').getElementsByTagName('li');
+//            console.log(uid);
+           uid[0].style.marginLeft = '0';
+            for(var i=0;i<uid.length;i++){
+
+                uid[i].onmouseover = function () {
+//                   this.setAttribute("class","selectColour");
+//                    if(){}
+                    //this.className += ' selectColour';
+                    if(this.className.indexOf('selectColour') == -1){
+                        this.className += ' selectColour';
+                    }
+//                    console.log();
+
+                };
+                 uid[i].onmouseout = function () {
+                     console.log("移除  --  "+this.className.indexOf('selectColour'));
+                     if(this.className.indexOf('selectColour') == 2){
+                         this.className = 'z';
+                     }
+                }
+            }
+            var pu = $myID("ppUU").getElementsByClassName("li");
+            /*pu[1].onmouseover = function () {
+                console.log("哈哈");
+            }*/
+
+        }
+    </script>
 </head>
 <body>
-$END$
+<div class="top">
+    <div class="w nav">
+        <h1 class="z">
+            <a href="#">LOGO</a>
+            <img src="img/logo.png" alt="" width="60" height="37">
+        </h1>
+        <div class="search z">
+            <input type="text" placeholder="搜索问题，话题，或人">
+            <button type="submit">搜索</button>
+        </div>
+        <div class="state z">
+            <ul id="staeuu">
+                <li class="z">
+                    <a href="#">
+                        <div class="find">
+                            <span>发现</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="z">
+                    <a href="#">
+                        <div class="topic">
+                            <span>话题</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="z">
+                    <a href="#">
+                        <div class="more">
+                            <span>...</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="peoplestatic z">
+            <ul class="clear" id="ppUU">
+                <li>
+                    <button type="submit">发起</button>
+                </li>
+                <li>
+                    <button type="submit">登录</button>
+                </li>
+                <li class="aimg">
+                    <!--<img src="img/avatar-min-img.png" alt="">-->
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <button type="submit">注册</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="center"></div>
+<div class="bot"></div>
 </body>
 </html>
