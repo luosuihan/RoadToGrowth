@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a2c5438-ab18-451a-9cd9-2386e82e9ebd" name="Default Changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/自动加载/Cat1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/自动加载/Cat2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/自动加载/textCat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/MVC/config/db.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/MVC/model/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/MVC/model/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/MVC/model/dao/DAO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/MVC/model/textDAO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/MVC/model/usermodel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -80,44 +83,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="smartyDemo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/使用模板引擎/smartyDemo.php">
+      <file leaf-file-name="usermodel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/MVC/model/usermodel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="50" column="14" lean-forward="false" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+            <state relative-caret-position="273">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
-                <element signature="e#6#86#0#PHP" expanded="false" />
-                <marker date="1548304179274" expanded="true" signature="506:576" ph="..." />
+                <marker date="1548544668274" expanded="true" signature="251:283" ph="select goods... ecs_goods" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cat1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/自动加载/Cat1.php">
+      <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/MVC/model/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cat2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/自动加载/Cat2.php">
+      <file leaf-file-name="Factory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/MVC/model/Factory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="624">
+              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="textCat.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/自动加载/textCat.php">
+      <file leaf-file-name="DAO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/MVC/model/dao/DAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="2379">
+              <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="textDAO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/MVC/model/textDAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding>
+                <marker date="1548400705191" expanded="true" signature="341:373" ph="select goods... ecs_goods" />
+                <marker date="1548400705191" expanded="true" signature="425:461" ph="insert into `text2`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/MVC/config/db.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -159,14 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/练习/textCard.php" />
-        <option value="$PROJECT_DIR$/php/工具类/textDaoMysql.php" />
-        <option value="$PROJECT_DIR$/php/sss/sss.php" />
-        <option value="$PROJECT_DIR$/php/高级教程/重载.php" />
-        <option value="$PROJECT_DIR$/php/高级教程/重写.php" />
-        <option value="$PROJECT_DIR$/php/高级教程/text.php" />
-        <option value="$PROJECT_DIR$/text/sss.html" />
-        <option value="$PROJECT_DIR$/php/工具类/DaoMySQL.php" />
         <option value="$PROJECT_DIR$/22.html" />
         <option value="$PROJECT_DIR$/php/查询并展示数据/showData.html" />
         <option value="$PROJECT_DIR$/php/查询并展示数据/DaoMysql.php" />
@@ -210,6 +227,14 @@
         <option value="$PROJECT_DIR$/php/使用模板引擎/textsmarty.php" />
         <option value="$PROJECT_DIR$/php/curl/text.php" />
         <option value="$PROJECT_DIR$/php/遗留问题" />
+        <option value="$PROJECT_DIR$/php/MVC/model/User.php" />
+        <option value="$PROJECT_DIR$/php/MVC/model/dao/DAO.php" />
+        <option value="$PROJECT_DIR$/php/MVC/model/dao/textDAO.php" />
+        <option value="$PROJECT_DIR$/php/MVC/model/Model.php" />
+        <option value="$PROJECT_DIR$/php/MVC/config/db.ini" />
+        <option value="$PROJECT_DIR$/php/MVC/model/textDAO.php" />
+        <option value="$PROJECT_DIR$/php/MVC/model/Factory.php" />
+        <option value="$PROJECT_DIR$/php/MVC/model/usermodel.php" />
       </list>
     </option>
   </component>
@@ -258,7 +283,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,11 +341,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="高级教程" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="自动加载" />
+              <option name="myItemId" value="工具类" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,12 +359,31 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="自动加载" />
+              <option name="myItemId" value="图片处理" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="H5text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="H5text" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVC" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,6 +397,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\htmlCode\H5text\php\MVC\model" />
       <recent name="D:\code\htmlCode\H5text\php\18综合案例\smarty" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -506,7 +546,9 @@
       <workItem from="1548148372309" duration="2200000" />
       <workItem from="1548205445171" duration="18773000" />
       <workItem from="1548295255772" duration="18750000" />
-      <workItem from="1548381315253" duration="185000" />
+      <workItem from="1548381315253" duration="14950000" />
+      <workItem from="1548463097044" duration="1694000" />
+      <workItem from="1550281798329" duration="352000" />
     </task>
     <task id="LOCAL-00001" summary="节点操作">
       <created>1544607432887</created>
@@ -526,13 +568,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335127000" />
+    <option name="totallyTimeSpent" value="351938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16354166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16354166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -570,63 +611,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/会话机制/session/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/会话机制/session/2.session_curd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/会话机制/session/3.check.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/会话机制/session/1.set_session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/会话机制/text2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/smarty-3.1.30/demo/configs/test.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/18综合案例/smarty/plugins/function.math.php" />
-    <entry file="file://$PROJECT_DIR$/php/会话机制/text1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -885,22 +869,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/使用模板引擎/smartyDemo.php">
+    <entry file="file://$PROJECT_DIR$/php/自动加载/textCat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="50" column="14" lean-forward="false" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="false" />
-            <marker date="1548304179274" expanded="true" signature="506:576" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/自动加载/Cat1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="273">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -908,15 +880,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/自动加载/Cat1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/使用模板引擎/smartyDemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="50" column="14" lean-forward="false" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/练习/textCard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/图片处理/checkCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/自动加载/textCat.php">
+    <entry file="file://$PROJECT_DIR$/php/工具类/DaoMySQL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="1349">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/MVC/config/db.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/MVC/model/textDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <marker date="1548400705191" expanded="true" signature="341:373" ph="select goods... ecs_goods" />
+            <marker date="1548400705191" expanded="true" signature="425:461" ph="insert into `text2`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/MVC/model/dao/DAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2379">
+          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/MVC/model/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/MVC/model/Factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/MVC/model/usermodel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1548544668274" expanded="true" signature="251:283" ph="select goods... ecs_goods" />
+          </folding>
         </state>
       </provider>
     </entry>
