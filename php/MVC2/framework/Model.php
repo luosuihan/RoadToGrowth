@@ -12,8 +12,10 @@ class Model
     public function __construct()
     {
         require_once 'dao/DAO.php';
-        require_once '../util/Util.php';
-        $property = Util::getINIflie("../config/db.ini");
+        require_once 'util/Util.php';
+//        $property = Util::getINIflie("../config/db.ini");
+        $property = Util::getINIflie("../../config/db.ini");
+//        var_dump($property);
         $this ->dao = DAO::getSingle($property);
     }
 }

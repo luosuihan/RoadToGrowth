@@ -5,13 +5,13 @@
  * Date: 2019/2/17
  * Time: 9:11
  */
-require_once 'Model.php';
+require_once '../../framework/Model.php';
 class OrderModel extends Model
 {
     //增删改查
     public function selectOrder()
     {
-        echo "ooo";
+//        echo "ooo";
         $sql = "select * from ecs_goods";
         $showdb = $this ->dao->selectAll($sql);
         echo'<pre>';

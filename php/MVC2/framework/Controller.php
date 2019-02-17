@@ -10,7 +10,7 @@ class Controller
     protected $smarty;
     public function __construct()
     {
-        require_once "../../smarty-3.1.30/libs/Smarty.class.php";
+        require_once 'smarty/libs/Smarty.class.php';
         $this ->smarty = new Smarty();
         $this ->smarty -> left_delimiter = '<{';
         $this ->smarty -> right_delimiter = '}>';

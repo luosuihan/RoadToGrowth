@@ -6,6 +6,7 @@
  * Time: 17:26
  * 描述：展示订单详情
  */
+require_once "../../framework/Controller.php";
 class OrderController extends Controller
 {
     //查询订单
@@ -14,12 +15,12 @@ class OrderController extends Controller
         //1,通过模型去数据库查找数据
 //        echo "sfd";
         require_once "../model/OrderModel.php";
-        require_once "../model/Factory.php";
+        require_once "../../framework/Factory.php";
         $orderFactory = Factory::M("OrderModel");
         /*var_dump($orderFactory);*/
         $orderList = $orderFactory -> selectOrder();
         //通过HTML模型来填充数据
-/*        require_once "../../smarty-3.1.30/libs/Smarty.class.php";
+       /* require_once "../../smarty-3.1.30/libs/Smarty.class.php";
         $smarty = new Smarty();
         $smarty -> left_delimiter = '<{';
         $smarty -> right_delimiter = '}>';
