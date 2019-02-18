@@ -6,6 +6,7 @@
  * Time: 9:48
  */
 namespace framework;
+use \Smarty;
 class Controller
 {
     protected $smarty;

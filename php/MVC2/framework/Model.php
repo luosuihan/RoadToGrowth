@@ -7,6 +7,7 @@
  * Time: 14:35
  */
 namespace framework;
+use framework\dao\DAO;
 class Model
 {
     protected $dao;
