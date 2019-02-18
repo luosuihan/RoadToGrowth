@@ -6,6 +6,7 @@
  * Date: 2019/2/16
  * Time: 13:09
  */
+namespace framework\util;
 class Util
 {
     //读取数据库配置文件

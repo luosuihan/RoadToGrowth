@@ -7,6 +7,7 @@
  * Time: 12:52
  * dsc : 封装数据库访问类
  */
+namespace framework\dao;
 class DAO
 {
     public $host;

@@ -5,7 +5,9 @@
  * Date: 2019/2/17
  * Time: 9:11
  */
-require_once '../../../framework/Model.php';
+//require_once '../../../framework/Model.php';
+namespace home\model;
+use framework\Model;
 class OrderModel extends Model
 {
     //增删改查

@@ -10,7 +10,8 @@ require_once '../../util/Util.php';*/
 //new DAO();
 /*$property = Util::getINIflie("../../config/db.ini");
 $dao = DAO::getSingle($property);*/
-require_once '../../../framework/Model.php';
+//require_once '../../../framework/Model.php';
+use framework\Model;
 class textdb extends Model{
     public function textdb1(){
         $sql = "select * from ecs_goods";

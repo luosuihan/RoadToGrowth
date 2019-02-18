@@ -5,6 +5,7 @@
  * Date: 2019/2/17
  * Time: 9:48
  */
+namespace framework;
 class Controller
 {
     protected $smarty;

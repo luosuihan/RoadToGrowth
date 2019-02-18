@@ -6,7 +6,10 @@
  * Time: 17:26
  * 描述：展示订单详情
  */
-require_once "../../../framework/Controller.php";
+//require_once "../../../framework/Controller.php";
+namespace admin\controller;
+use framework\Controller;
+use framework\Factory;
 class OrderController extends Controller
 {
     //查询订单
@@ -14,8 +17,8 @@ class OrderController extends Controller
     {
         //1,通过模型去数据库查找数据
 //        echo "sfd";
-        require_once "../Model/OrderModel.php";
-        require_once "../../../framework/Factory.php";
+//        require_once "../Model/OrderModel.php";
+//        require_once "../../../framework/Factory.php";
         $orderFactory = Factory::M("OrderModel");
         /*var_dump($orderFactory);*/
         $orderList = $orderFactory -> selectOrder();

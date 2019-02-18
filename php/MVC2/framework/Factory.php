@@ -6,6 +6,7 @@
  * Date: 2019/2/16
  * Time: 14:59
  */
+namespace framework;
 class Factory
 {
     public static function M($className)
