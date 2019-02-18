@@ -16,11 +16,11 @@ function myAutoload($className)
  * */
 spl_autoload_register(myAutoload,false,true);
 $cat = new Cat1();
-$cat1 = new Cat2();
+//$cat1 = new Cat2();
 
 //echo $cat.name;
 echo '<pre>';
-var_dump($cat);
-var_dump($cat1);
+//var_dump($cat);
+//var_dump($cat1);
 /*var_dump($dog);
 var_dump($tiger);*/
