@@ -10,12 +10,17 @@
 namespace home\controller;
 use framework\Factory;
 use framework\Controller;
-class OrderController /*extends Controller*/
+class OrderController extends Controller
 {
     //查询订单
     public function orderlist()
     {
-
+        $orderFactory = Factory::M("OrderModel");
+        $orderList = $orderFactory -> selectOrder();
+//        echo "<pre>";
+//        var_dump($orderList);
+        $this ->smarty -> assign('goods',$orderList);
+        $this ->smarty -> display('./application/'.MODULE.'/view/order.html');
     }
     //插入订单
     public function orderInsert($attribute)
@@ -28,5 +33,5 @@ class OrderController /*extends Controller*/
         echo 'home';
     }
 }
-/*$ss = new OrderController();
-$ss ->orderlist();*/
+$ss = new OrderController();
+$ss ->orderlist();

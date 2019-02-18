@@ -1,11 +1,21 @@
 <?php
 /**
- * 商品模型类，操作商品表
+ * Created by PhpStorm.
+ * User: 小辛
+ * Date: 2017/9/9
+ * Time: 14:46
  */
-class GoodsModel
-{
-    public function goods_select()
-    {
 
+namespace home\model;
+
+
+use framework\core\Model;
+
+class GoodsModel extends Model
+{
+    public function goodsList()
+    {
+        $sql = "SELECT * FROM tn_goods";
+        return $this ->dao ->fetchAll($sql);
     }
 }

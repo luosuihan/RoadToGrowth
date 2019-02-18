@@ -14,10 +14,11 @@ class OrderModel extends Model
     public function selectOrder()
     {
 //        echo "ooo";
-        $sql = "select * from ecs_goods";
+//        $sql = "select * from ecs_goods";
+        $sql = "select goods_id,goods_name,shop_price from ecs_goods;";
         $showdb = $this ->dao->selectAll($sql);
-        echo'<pre>';
-        var_dump($showdb);
+//        echo "<>"
+        return $showdb;
     }
     public function insertOrder($attribute)
     {

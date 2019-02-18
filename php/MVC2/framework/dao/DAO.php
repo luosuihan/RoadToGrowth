@@ -8,6 +8,7 @@
  * dsc : 封装数据库访问类
  */
 namespace framework\dao;
+use \mysqli;
 class DAO
 {
     public $host;
@@ -19,13 +20,14 @@ class DAO
     public static $single;
     private function __construct($property)
     {
-        echo "<pre>";
-        var_dump($property);
+//        echo "<pre>";
+//        var_dump($property);
         $this -> host = $property['host'];
         $this -> user = $property['user'];
         $this -> pwd = $property['pwd'];
         $this -> db = $property['dbname'];
         $this -> port = $property['port'];
+//        var_dump($this -> host,$this -> user,$this -> pwd,$this -> db,$this -> port);
         //连接数据库
         $this -> connectdb($this -> host,$this -> user,$this -> pwd,$this -> db,$this -> port);
     }
@@ -36,6 +38,7 @@ class DAO
     }
     private function connectdb($host,$user,$pwd,$db,$port)
     {
+//        $this->mysqli = new mysqli("127.0.0.1","root","123456",$db,$port);
         $this->mysqli = new mysqli($host,$user,$pwd,$db,$port);
         if($this -> mysqli ->errno){
             die("数据库连接失败:".$this -> mysqli ->error);
@@ -53,7 +56,7 @@ class DAO
     public function __destruct()
     {
         // TODO: Implement __destruct() method.
-        $this->mysqli -> close();
+//        $this->mysqli -> close();
     }
     //单条数据查询
     public function selectOne($sql){
@@ -78,7 +81,7 @@ class DAO
             $result -> free();
             return $arr;
         }else{
-            echo '数据库插入失败';
+            echo '数据库查询失败';
             exit();
         }
 

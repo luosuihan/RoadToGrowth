@@ -9,12 +9,14 @@
 namespace framework;
 class Factory
 {
-    public static function M($className)
+    public static function M($class)
     {
         static $model_list = [];
-        if(!isset($model_list[$className])){
-            $model_list[$className] = new $className;
+        $class_name = MODULE.'\\model\\'.$class;
+//        echo " Factory :: $class_name ";
+        if(!isset($model_list[$class_name])){
+            $model_list[$class_name] = new $class_name;
         }
-        return $model_list[$className];
+        return $model_list[$class_name];
     }
 }

@@ -23,7 +23,7 @@ if($mysqli->errno){
 $smarty -> caching = true;
 $smarty -> setCacheDir("cache");
 $smarty -> cache_lifetime = 60;
-if(!$smarty ->isCached('smarty.html',$page_num)){
+if(!$smarty ->isCached('smarty11.html',$page_num)){
 
     //统计数据条数
     $sql = "select count(*) as 'goodstotal' from ecs_goods where shop_price != 0.00";
@@ -47,7 +47,7 @@ if(!$smarty ->isCached('smarty.html',$page_num)){
 
 $data = $show ->getData();
 echo "显示页数".$page_num;
-$smarty->display('smarty.html',$page_num);
+$smarty->display('./ddd/smarty11.html',$page_num);
 echo $data;
 ?>
 </body>

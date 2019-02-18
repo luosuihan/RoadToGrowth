@@ -1,19 +1,37 @@
 <?php
+
+/**
+ * 基础控制器，多个控制器之间的公共代码
+ */
 namespace framework\core;
 use \Smarty;
-/**
- * 基础控制器类，将多个控制器之间通用的代码提取出来
- */
 class Controller
 {
     protected $smarty;
     public function __construct()
     {
-        require_once 'smarty/Smarty.class.php';
+        $this -> initCharset();
+        $this -> initTimezone();
+        $this -> initSmarty();
+    }
+    //初始化smarty
+    private function initSmarty()
+    {
+        //require_once './smarty/Smarty.class.php';
         $this -> smarty = new Smarty();
         $this -> smarty -> left_delimiter = '<{';
         $this -> smarty -> right_delimiter = '}>';
-        $this -> smarty -> setTemplateDir('tpl/');
-        $this -> smarty -> setCompileDir('tpl_c/');
+        $this -> smarty -> setTemplateDir('./application/'.MODULE.'/view/');
+        $this -> smarty -> setCompileDir('tpls_c');
+    }
+    //设置编码
+    public function initCharset()
+    {
+        header("Content-type:text/html;charset=utf-8");
+    }
+    //设置时区
+    public function initTimezone()
+    {
+        date_default_timezone_set('PRC');
     }
 }

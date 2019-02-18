@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>序号</th>
+            <th>商品名称</th>
+            <th>商品价格</th>
+        </tr>
+        <{foreach $goods as $k=>$v}>
+        <tr>
+            <td><{$v['goods_id']}></td>
+            <td><{$v.goods_name}></td>
+            <td><{$v.shop_price}></td>
+        </tr>
+        <{/foreach}>
+    </table>
+</body>
+</html>

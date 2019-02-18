@@ -1,12 +1,11 @@
 <?php
-namespace framework\dao;
-use framework\dao\i_DAOPDO;
-use \PDO;
-use \PDOException;
 /**
  * 封装PDO的操作
  */
-//require_once 'i_DAOPDO.interface.php';
+namespace framework\dao;
+use framework\dao\i_DAOPDO;
+use PDO;
+use PDOException;
 
 class DAOPDO implements i_DAOPDO
 {
@@ -27,7 +26,7 @@ class DAOPDO implements i_DAOPDO
         $this -> dbname = isset($option['dbname'])?$option['dbname']:'';
         $this -> port = isset($option['port'])?$option['port']:3306;
         $this -> charset = isset($option['charset'])?$option['charset']:'utf8';
-
+        var_dump($this -> host,$this -> user,$this -> pass,$this -> dbname,$this -> port,$this -> charset);
         //初始化PDO
         $this -> initDAO();
     }

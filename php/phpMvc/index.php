@@ -1,48 +1,61 @@
 <?php
 /**
- * 入口文件（分发控制器），前台接待
- * 根据需求将你带到指定的目录
+ * Created by PhpStorm.
+ * User: 小辛
+ * Date: 2017/9/9
+ * Time: 9:44
  */
-//注册自动加载处理器
+//注册一个自动加载之后，就会在需要一个类但是没有找到这个类的定义时，就会自动触发自动加载
+//而且还会将需要的类名传递到自动加载函数中
 spl_autoload_register('userAutoload');
 function userAutoload($class)
 {
-    echo "需要:".$class.'<br>';   // admin\controller\OrderController
-    //1. 先根据 \ 进行字符串拆分：炸开
+    echo "需要:".$class.'<br>';
+    if($class == 'Smarty'){
+        require_once './framework/vendor/smarty/Smarty.class.php';
+        return;
+    }
+    //根据类名将需要的类加载进来，要想通过类名找到这个类的所在位置，如果类前面有类的空间、目录
+    //根据类名解析出类所在的路径
     $arr = explode('\\',$class);
-
-    //2. 开始拼接（项目的类都是在application目录下，框架的类都是在framework目录下）
     if($arr[0] == 'framework'){
-        //根目录
-        $base_dir = './framework/';
+        $base_dir = './';
     }else{
-        //根目录
         $base_dir = './application/';
     }
-    //3.在根目录的基础上拼接类所在的路径
+    //拼接上命名空间所代表的路径: home\controller\UserController   framework\core\Controller
     $sub_dir = str_replace('\\','/',$class);
 
-    //4. 拼接后缀
-    $last_fix = '.class.php';
+    //后缀
+    if(substr($arr[count($arr)-1],0,2) == 'i_'){
+        $last_fix = '.interface.php';
+    }else{
+        $last_fix = '.class.php';
+    }
 
-    $class_file = $base_dir.$sub_dir.$last_fix;
-    require_once $class_file;
+    $class_file = $base_dir . $sub_dir . $last_fix;
+    if(file_exists($class_file)){
+        require_once $class_file;
+    }
 }
 
-//接收用户的需求,如果用户什么也没说，我们就先把他带到默认的地方
-$m = isset($_GET['m']) ? $_GET['m'] : 'home';
-$c = isset($_GET['c']) ? $_GET['c'] : 'Order';
-$a = isset($_GET['a']) ? $_GET['a'] : 'orderInsert';
 
-//根据需求访问指定的方法
-//先加载控制器
-$controllerName = $m.'\\controller\\'.$c.'Controller';
-//require_once './application/'.$m.'/controller/'.$controllerName.'.class.php';
-//require_once './application/home/controller/OrderController.class.php';
+//接收用户的需求，也就是地址栏的参数
+$m = isset($_GET['m']) ? $_GET['m'] : 'home';
+define('MODULE',$m);
+
+$c = isset($_GET['c']) ? $_GET['c'] : 'User';
+define('CONTROLLER',$c);
+
+$a = isset($_GET['a']) ? $_GET['a'] : 'userSelect';
+define('ACTION',$a);
+
+//将其引导到目的地
+$controller_name = $m.'\\controller\\'.$c.'Controller';  //home\controller\UserController
 
 //实例化控制器对象
-$controller = new $controllerName;   // home\controller\OrderController
-//并调用控制器的方法
-$controller -> $a();
+$controller = new $controller_name;
 
+//调用控制器的方法
+$controller -> $a();
 

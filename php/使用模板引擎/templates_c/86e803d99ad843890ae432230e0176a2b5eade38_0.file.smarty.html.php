@@ -1,6 +1,6 @@
 <?php
 /* Smarty version 3.1.30, created on 2019-01-24 13:49:55
-  from "D:\code\htmlCode\H5text\php\使用模板引擎\smarty.html" */
+  from "D:\code\htmlCode\H5text\php\使用模板引擎\smarty11.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
@@ -11,7 +11,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
     '86e803d99ad843890ae432230e0176a2b5eade38' => 
     array (
-      0 => 'D:\\code\\htmlCode\\H5text\\php\\使用模板引擎\\smarty.html',
+      0 => 'D:\\code\\htmlCode\\H5text\\php\\使用模板引擎\\smarty11.html',
       1 => 1548308965,
       2 => 'file',
     ),

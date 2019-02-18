@@ -1,17 +1,19 @@
 <?php
 /**
- * 用户控制器类，负责实现用户功能模块
+ * 用户控制器，负责用户模块的管理
  */
-class UserController
+
+class UserController extends Controller
 {
-    //注册用户（添加一个用户）
-    public function register()
+    public function userSelect()
     {
+        //1. 命名模型处理数据（增删改查）
+        $model = Factory::M('UserModel');
+        $users = $model -> userList();
 
-    }
-    //用户登录（去数据库查询用户）
-    public function login()
-    {
+        //2. 命令视图显示数据
 
+        $this -> smarty -> assign('users',$users);
+        $this -> smarty -> display('user.html');
     }
 }
