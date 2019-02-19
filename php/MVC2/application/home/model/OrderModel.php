@@ -15,6 +15,7 @@ class OrderModel extends Model
     {
 //        echo "ooo";
 //        $sql = "select * from ecs_goods";
+//        echo 'OrderModel'.'<br>';
         $sql = "select goods_id,goods_name,shop_price from ecs_goods;";
         $showdb = $this ->dao->selectAll($sql);
 //        echo "<>"

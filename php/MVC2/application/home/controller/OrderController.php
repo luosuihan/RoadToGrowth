@@ -15,6 +15,7 @@ class OrderController extends Controller
     //查询订单
     public function orderlist()
     {
+//        echo 'OrderController'.'<br>';
         $orderFactory = Factory::M("OrderModel");
         $orderList = $orderFactory -> selectOrder();
 //        echo "<pre>";

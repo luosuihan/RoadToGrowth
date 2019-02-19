@@ -14,6 +14,7 @@ class Model
     protected $dao;
     public function __construct()
     {
+//        echo 'Model'.'<br>';
 //        require_once 'dao/DAO.php';
 //        require_once 'util/Util.php';
 //        $property = Util::getINIflie("../config/db.ini");
@@ -26,6 +27,19 @@ class Model
             'port'      =>  3306,
         ];
 //        var_dump($option);
+       /* $option = $this ->loadFrameworkConfig();
+        var_dump($option);*/
+        $option1 = $this ->loadFrameworkConfig1();
+//        $this ->loadFrameworkConfig1();
+        var_dump($option1);
+//        die;
         $this ->dao = DAO::getSingle($option);
+    }
+    public function loadFrameworkConfig1()
+    {
+//        echo 'loadFrameworkConfig1';
+        $config_file = './framework/config/config.php';
+        echo $config_file;
+        return require_once $config_file;
     }
 }
