@@ -5,7 +5,7 @@
  * Date: 2019/2/18
  * Time: 9:30
  */
-error_reporting(1);
+/*error_reporting(1);
 spl_autoload_register(userAutoload);
 function userAutoload($class)
 {
@@ -45,4 +45,8 @@ $controllerName = $m.'\\controller\\'.$c.'Controller';
 //先加载控制器方法
 //require_once './application/'.$m.'/controller/'.$controllerName.'.php';
 $controller = new $controllerName;
-$controller -> $a();
+$controller -> $a();*/
+
+//通过面向对象的方式来加载
+require_once 'framework/core/Framework.php';
+new \framework\core\Framework();
