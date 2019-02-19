@@ -17,8 +17,8 @@ class Controller
         $this ->smarty = new Smarty();
         $this ->smarty -> left_delimiter = '<{';
         $this ->smarty -> right_delimiter = '}>';
-        /*$this ->smarty -> setTemplateDir('tld/');
-        $this ->smarty -> setCompileDir('tld_c/');*/
+        $this ->smarty -> setTemplateDir(APP.MODULE.'view/');
+        $this ->smarty -> setCompileDir(APP.'public/tpls_c/');
     }
     //设置编码
     public function initCharset()

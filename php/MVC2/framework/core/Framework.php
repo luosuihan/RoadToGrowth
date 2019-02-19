@@ -11,9 +11,11 @@ class Framework
 {
     public function __construct()
     {
+        $this->initConst();
         $this->initAutoload();
         $this->initMCA();
         $this->initDispath();
+//        gitcwd();
     }
     public function initAutoload()
     {
@@ -62,5 +64,21 @@ class Framework
         $controller = new $controllerName;
         $a = ACTION;
         $controller -> $a();
+    }
+    //定义常量
+    public function initConst()
+    {
+        //当前文件的完整路径 -> D:\code\htmlCode\H5text\php\MVC2\framework\core
+        echo "物理地址".__DIR__.'<br>';
+        //项目存放的路径 -> D:\code\htmlCode\H5text\php\MVC2
+        echo "工作目录".getcwd().'<br>';
+
+        define("ROOT",str_replace('\\','/',getcwd().'/'));
+       /* echo'<pre>';
+        var_dump(ROOT);*/
+       define("APP",ROOT."application/");
+//        var_dump(APP);
+        define("FRAMEWORK","framework/");
+        var_dump(FRAMEWORK);
     }
 }
