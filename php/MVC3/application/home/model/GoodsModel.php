@@ -7,10 +7,7 @@
  * 、、//展示商品
  */
 namespace home\model;
-//use framework\dao\MVCDAO;
 use framework\core\Model;
-//require_once "Model.php";
-
 class GoodsModel extends Model
 {
     //查询数据
@@ -22,7 +19,7 @@ class GoodsModel extends Model
          $dao = MVCDAO::getSingle();*/
         //2，执行sql函数
          $sql = "select * from `ecs_goods`";
-         $req = $this->dao->selectAll($sql);
+         $req = $this -> dao3 ->selectAll($sql);
          echo '<pre>';
          var_dump($req);
     }

@@ -11,10 +11,10 @@ namespace framework\core;
 use framework\dao\MVCDAO;
 class Model
 {
-    protected $dao;
+    protected $dao3;
     public function __construct()
     {
 //        require_once "../../../framework/dao/MVCDAO.php";
-        $this -> dao = MVCDAO::getSingle();
+        $this -> dao3 = MVCDAO::getSingle();
     }
 }

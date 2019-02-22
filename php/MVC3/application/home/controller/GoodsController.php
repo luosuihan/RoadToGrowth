@@ -8,16 +8,18 @@
 //require_once "Controller.php";
 namespace home\controller;
 use framework\core\Factory;
+use home\model;
 class GoodsController /*extends Controller*/
 {
     public function goodsList()
     {
+//        echo "goodsList";
 //        require_once "../model/Factory.php";
 //        require_once "../model/GoodsModel.php";
         $goodsFactory = Factory::M("GoodsModel");
-        $goods = $goodsFactory -> selectGoods();
+        $goodsFactory -> selectGoods();
         //通过HTML模板引擎展示数据
-
+//        var_dump($goods);
        /* $this ->smarty -> assign('goods',$goods);
         $this ->smarty -> display('../view/order.html');*/
     }

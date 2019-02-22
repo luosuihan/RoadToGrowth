@@ -11,9 +11,11 @@ class Factory
     public static function M($class)
     {
         static $class_list = [];
-        if (isset($class_list)){
-            $class_list[$class] = new $class;
+        $className = MODEL.'\\model\\'.$class;
+        if (!isset($class_list[$className])){ //!isset($className)  这种写法会包找不到该类的 函数方法
+            $class_list[$className] = new $className;
         }
-        return $class_list[$class];
+//        var_dump("工厂函数$className");
+        return $class_list[$className];
     }
 }
