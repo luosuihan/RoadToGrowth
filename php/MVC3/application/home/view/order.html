@@ -5,6 +5,19 @@
     <title>Title</title>
 </head>
 <body>
-<{$goods}>
+<table>
+    <tr>
+        <th>序号</th>
+        <th>商品名称</th>
+        <th>商品价格</th>
+    </tr>
+    <{foreach $showGoods as $k=>$v}>
+    <tr>
+        <td><{$v['goods_id']}></td>
+        <td><{$v.goods_name}></td>
+        <td><{$v.shop_price}></td>
+    </tr>
+    <{/foreach}>
+</table>
 </body>
 </html>

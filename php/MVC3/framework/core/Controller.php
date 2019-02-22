@@ -12,7 +12,7 @@ class Controller
     protected $smarty;
     public function __construct()
     {
-        require_once '../../../framework/vendor/smarty/Smarty.class.php';
+        //require_once '../../../framework/vendor/smarty/Smarty.class.php';
         $this ->smarty = new Smarty();
         $this ->smarty ->left_delimiter = "<{";
         $this ->smarty ->right_delimiter = "}>";

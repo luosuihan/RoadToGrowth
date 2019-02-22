@@ -20,8 +20,7 @@ class GoodsModel extends Model
         //2，执行sql函数
          $sql = "select * from `ecs_goods`";
          $req = $this -> dao3 ->selectAll($sql);
-         echo '<pre>';
-         var_dump($req);
+         return $req;
     }
 }
 //$text = new GoodsModel();

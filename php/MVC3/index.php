@@ -9,6 +9,10 @@
 spl_autoload_register("myautoload",false,true);
 function myautoload($class){
     echo "需要类：".$class."<br>";
+    if ($class == 'Smarty'){
+        require_once './framework/vendor/smarty/Smarty.class.php';
+        return;
+    }
     //切割路径
     $arr = explode('\\',$class);
 //    var_dump($arr);
@@ -25,7 +29,9 @@ function myautoload($class){
     $last_fix = '.php';
     $class_file = $base_dir.$sub_dir.$last_fix;
 //    var_dump($class_file);
-    require_once $class_file;
+    if (file_exists($class_file)){
+        require_once $class_file;
+    }
 }
 
 //入口文件
