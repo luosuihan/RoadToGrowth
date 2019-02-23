@@ -13,15 +13,11 @@ class GoodsController extends Controller
 {
     public function goodsList()
     {
-//        echo "goodsList";
-//        require_once "../model/Factory.php";
-//        require_once "../model/GoodsModel.php";
         $goodsFactory = Factory::M("GoodsModel");
         $goods = $goodsFactory -> selectGoods();
         //通过HTML模板引擎展示数据
-//        var_dump($goods);
         $this ->smarty -> assign('showGoods',$goods);
-        $this ->smarty -> display('./application/home/view/order.html');
+        $this ->smarty -> display('./application/'.MODEL.'/view/order.html');
     }
     public function goodsListText()
     {
