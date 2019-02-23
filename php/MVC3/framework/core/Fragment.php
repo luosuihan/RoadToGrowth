@@ -10,9 +10,11 @@ class Fragment
 {
     public function __construct()
     {
+        $this -> initFilePath();
         $this -> initAutoload();
         $this -> initInletFile();
         $this -> initInlet();
+//        $this -> initFilePath();
 
     }
     //初始化自动加载类
@@ -61,5 +63,15 @@ class Fragment
         $controller = new $controllerName;
         $a = ACTION;
         $controller -> $a();
+    }
+    //路径获取
+    public function initFilePath()
+    {
+        echo "".__DIR__.'<br>';
+        echo "".getcwd().'<br>';
+        define('ROOT',str_replace('\\','/',getcwd().'/'));
+//        echo ROOT;
+        define('APPLICATION',ROOT.'application/');
+        define('FRAMEWORK',ROOT.'framework/');
     }
 }

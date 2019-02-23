@@ -17,7 +17,7 @@ class GoodsController extends Controller
         $goods = $goodsFactory -> selectGoods();
         //通过HTML模板引擎展示数据
         $this ->smarty -> assign('showGoods',$goods);
-        $this ->smarty -> display('./application/'.MODEL.'/view/order.html');
+        $this ->smarty -> display(ROOT.'application/'.MODEL.'/view/order.html');
     }
     public function goodsListText()
     {

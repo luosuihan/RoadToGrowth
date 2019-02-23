@@ -16,7 +16,7 @@ class Controller
         $this ->smarty = new Smarty();
         $this ->smarty ->left_delimiter = "<{";
         $this ->smarty ->right_delimiter = "}>";
-        $this ->smarty -> setTemplateDir('tpl');
-        $this ->smarty -> setCompileDir('tpls_c/');//缓存文件
+        $this ->smarty -> setTemplateDir(APPLICATION.MODEL.'/view/');
+        $this ->smarty -> setCompileDir(APPLICATION.'public/'.'tpls_c/');//缓存文件
     }
 }
