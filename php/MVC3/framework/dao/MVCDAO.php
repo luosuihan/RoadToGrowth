@@ -21,16 +21,16 @@ class MVCDAO
     public static $sigle = null;
     private function  __construct()
     {
-       /* $this->host = $dbproperty['host'];
-        $this->user = $dbproperty['user'];
-        $this->pwd = $dbproperty['pwd'];
-        $this->dbname = $dbproperty['dbname'];
-        $this->port = $dbproperty['port'];*/
-        $this->host = '127.0.0.1';
+        $this->host = $GLOBALS['config1']['host'];
+        $this->user = $GLOBALS['config1']['user'];
+        $this->pwd = $GLOBALS['config1']['pwd'];
+        $this->dbname = $GLOBALS['config1']['dbname'];
+        $this->port = $GLOBALS['config1']['port'];
+        /*$this->host = '127.0.0.1';
         $this->user = 'root';
         $this->pwd = '123456';
         $this->dbname = 'ecshop';
-        $this->port = 3306;
+        $this->port = 3306;*/
         $this -> connectdb($this->host,$this->user,$this->pwd,$this->dbname,$this->port);
     }
     private function connectdb($host,$user,$pwd,$dbname,$port)
