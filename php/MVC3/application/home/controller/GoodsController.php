@@ -16,12 +16,15 @@ class GoodsController extends Controller
         $goodsFactory = Factory::M("GoodsModel");
 //        $where = ['good'=>'zhangs'];
         $where = ['goods_id' => 56];
-        $filed = ['goods_id','goods_name','shop_price'];
-        $goods = $goodsFactory -> find($where,$filed);
+//        $filed = ['goods_id','goods_name','shop_price'];
+        $filed = ['empno','ename','job'];
+        $staff = $goodsFactory -> find($where,$filed);
 //        $goods = $goodsFactory -> selectGoods();
         //通过HTML模板引擎展示数据
-        $this ->smarty -> assign('showGoods',$goods);
-        $this ->smarty -> display(ROOT.'application/'.MODEL.'/view/order.html');
+/*        $this ->smarty -> assign('showGoods',$goods);
+        $this ->smarty -> display(ROOT.'application/'.MODEL.'/view/order.html');*/
+        $this ->smarty -> assign('staff',$staff);
+        $this ->smarty -> display(ROOT.'application/'.MODEL.'/view/staffinfo.html');
     }
     public function goodsListText()
     {

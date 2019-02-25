@@ -13,12 +13,14 @@ class Model
 {
     protected $dao3;
     protected $true_table;
+    protected $pk;
     public function __construct()
     {
         //初始化数据库
         $this -> initDAO();
         //初始化真实表名
         $this -> initTrueTable();
+//        $this -> findPrimary();
     }
     public function initDAO()
     {
@@ -28,8 +30,19 @@ class Model
     public function initTrueTable()
     {
         $this -> true_table = '`'.$GLOBALS['config1']['table_prefix'].$this->logic_table.'`';
-        /*var_dump($this -> true_table);
-        die;*/
+//        echo "真实表名  ".$this -> true_table;
+    }
+    //主键查询
+    public function findPrimary()
+    {
+        $sql = "desc $this->true_table ";
+        $result = $this -> dao3 ->selectOne($sql);
+        foreach ($result as $k => $v)
+        {
+            if ($v['key'] == 'PRI'){
+                $this ->pk = $v['Field'];
+            }
+        }
     }
     //自动查询
     public function find($where = [],$fileds = [])
@@ -52,7 +65,35 @@ class Model
             }
             $str_fileds = implode(',',$filed);
         }
-        $sql = "select $str_fileds from $this->true_table $str_where";
+//        $sql = "select $str_fileds from $this->true_table $str_where";
+        $sql = "select * from $this->true_table ";
         return $this -> dao3 ->selectAll($sql);
+    }
+    //自动删除
+    /*public function delete($pk_value)
+    {
+        $sql = "delete $this->true_table where `$this->pk`=$pk_value";
+        return $this->dao3->myquery($sql);
+    }*/
+    //自动添加
+    /*public function add($date)
+    {
+        $sql = "insert into $this->true_table";
+        $keys  = [];
+        $values = [];
+        foreach ($date as $k=>$v){
+            $keys[] = "`$k`";
+            $values[] = "'$v'";
+        }
+        $fields = '('.implode(',',$keys).')';
+        $sql .= $fields;
+        $fields = '('.implode(',',$values).')';
+        $sql .= $fields;
+        return $this->dao3->myquery($sql);
+    }*/
+    //自动修改
+    public function update()
+    {
+
     }
 }

@@ -10,7 +10,7 @@ namespace home\model;
 use framework\core\Model;
 class GoodsModel extends Model
 {
-    public $logic_table = 'goods';
+    public $logic_table = 'emp';
     //查询数据
     public function selectGoods()
     {

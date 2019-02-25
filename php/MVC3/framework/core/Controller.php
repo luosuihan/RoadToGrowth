@@ -14,8 +14,8 @@ class Controller
     {
         //require_once '../../../framework/vendor/smarty/Smarty.class.php';
         $this ->smarty = new Smarty();
-        $this ->smarty ->left_delimiter = "<{";
-        $this ->smarty ->right_delimiter = "}>";
+        $this ->smarty ->left_delimiter = $GLOBALS['config1']['left_delimiter'];
+        $this ->smarty ->right_delimiter = $GLOBALS['config1']['right_delimiter'];
         $this ->smarty -> setTemplateDir(APPLICATION.MODEL.'/view/');
         $this ->smarty -> setCompileDir(APPLICATION.'public/'.'tpls_c/');//缓存文件
     }
