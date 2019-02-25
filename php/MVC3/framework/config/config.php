@@ -13,6 +13,9 @@ return [
     "dbname"              => 'ecshop',
     "port"                => 3306,
 
+    //数据库表名前缀
+    "table_prefix"       => 'ecs_',
+
     //入口默认信息
     "default_model"      => "home",
     "default_controller"      => "Goods",

@@ -11,8 +11,6 @@ class Fragment
     public function __construct()
     {
          $GLOBALS['config1'] = $this -> initFrameworkConfig();
-//         echo "<pre>";
-//         var_dump($config1);
         $this -> initFilePath();
         $this -> initAutoload();
         $this -> initMCA();

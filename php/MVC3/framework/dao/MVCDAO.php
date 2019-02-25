@@ -19,13 +19,18 @@ class MVCDAO
     public $character;
     public $mysqli;
     public static $sigle = null;
-    private function  __construct()
+    private function  __construct($option)
     {
-        $this->host = $GLOBALS['config1']['host'];
+        $this->host = $option['host'];
+        $this->user = $option['user'];
+        $this->pwd = $option['pwd'];
+        $this->dbname = $option['dbname'];
+        $this->port = $option['port'];
+       /* $this->host = $GLOBALS['config1']['host'];
         $this->user = $GLOBALS['config1']['user'];
         $this->pwd = $GLOBALS['config1']['pwd'];
         $this->dbname = $GLOBALS['config1']['dbname'];
-        $this->port = $GLOBALS['config1']['port'];
+        $this->port = $GLOBALS['config1']['port'];*/
         /*$this->host = '127.0.0.1';
         $this->user = 'root';
         $this->pwd = '123456';
@@ -47,12 +52,12 @@ class MVCDAO
     {
         // TODO: Implement __clone() method.
     }
-    public static function getSingle()
+    public static function getSingle($option)
     {
 //        echo "getSingle";
         if(self::$sigle == null)
         {
-            self::$sigle = new MVCDAO();
+            self::$sigle = new MVCDAO($option);
         }
         return self::$sigle;
     }
