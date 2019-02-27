@@ -10,10 +10,12 @@ class BookFramework
 {
     public function __construct()
     {
+        $this ->initPath();
         $GLOBALS['config'] = $this -> initFrameworkConfig();
         $this ->initAutoLoad();
         $this ->initMCA();
         $this ->initInletFile();
+
     }
     //自动加载
     public function initAutoLoad()
@@ -62,5 +64,16 @@ class BookFramework
         $controller = new $controllerName;
         $a = ACTION;
         $controller -> $a();
+    }
+    //获取文件路径
+    public function initPath()
+    {
+        /*D:\code\htmlCode\H5text\php\booksystem\framework\core  __DIR__
+        D:\code\htmlCode\H5text\php\booksystem   getcwd() */
+        /*echo ''.__DIR__.'<br>';
+        echo ''.getcwd().'<br>';*/
+        define('BROOT',getcwd().'/');
+        define('BAPP',BROOT.'application/');
+        define('BFRAMEWORK',BROOT.'framework/');
     }
 }

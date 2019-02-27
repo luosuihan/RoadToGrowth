@@ -13,11 +13,9 @@ class BController
     public function __construct()
     {
         $this ->smarty = new Smarty();
-        /*$this ->smarty ->left_delimiter = $GLOBALS['config']['left_delimiter'];
-        $this ->smarty ->right_delimiter = $GLOBALS['config']['right_delimiter'];*/
-        $this ->smarty ->left_delimiter = '<{';
-        $this ->smarty ->right_delimiter = '}>';
-        $this ->smarty -> setTemplateDir('/view/');
-        $this ->smarty -> setCompileDir('tpls_c/');//缓存文件
+        $this ->smarty ->left_delimiter = $GLOBALS['config']['left_delimiter'];
+        $this ->smarty ->right_delimiter = $GLOBALS['config']['right_delimiter'];
+        $this ->smarty -> setTemplateDir(BAPP.'view/');
+        $this ->smarty -> setCompileDir(BROOT.'public/tpls_c/');//缓存文件
     }
 }

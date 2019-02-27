@@ -18,6 +18,6 @@ class UserController extends BController
 //        echo'<pre>';
 //        var_dump($u_result);
         $this -> smarty ->assign('u_result',$u_result);
-        $this -> smarty ->display('./application/admin/view/user.html');
+        $this -> smarty ->display(BAPP.MODEL.'/view/user.html');
     }
 }
