@@ -16,6 +16,6 @@ class BController
         $this ->smarty ->left_delimiter = $GLOBALS['config']['left_delimiter'];
         $this ->smarty ->right_delimiter = $GLOBALS['config']['right_delimiter'];
         $this ->smarty -> setTemplateDir(BAPP.'view/');
-        $this ->smarty -> setCompileDir(BROOT.'public/tpls_c/');//缓存文件
+//        $this ->smarty -> setCompileDir(BROOT.'public/tpls_c/');//缓存文件
     }
 }

@@ -10,7 +10,7 @@ class BookFramework
 {
     public function __construct()
     {
-        $this ->initPath();
+        $this ->initConstantPath();
         $GLOBALS['config'] = $this -> initFrameworkConfig();
         $this ->initAutoLoad();
         $this ->initMCA();
@@ -24,7 +24,7 @@ class BookFramework
     }
     public function myAutoload($class)
     {
-        echo "需要：".$class.'<br>';
+//        echo "需要：".$class.'<br>';
 //        str_replace()
         if($class == "Smarty"){
             require_once './framework/vendor/smarty/Smarty.class.php';
@@ -66,7 +66,7 @@ class BookFramework
         $controller -> $a();
     }
     //获取文件路径
-    public function initPath()
+    public function initConstantPath()
     {
         /*D:\code\htmlCode\H5text\php\booksystem\framework\core  __DIR__
         D:\code\htmlCode\H5text\php\booksystem   getcwd() */

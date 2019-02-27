@@ -3,8 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .zh{
+            width: 960px;
+            margin: 0 auto;
+        }
+        table{
+            /*border: 1px;
+            background-color: #e43f3b;*/
+        }
+        td{
+            padding: 0 5px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-<{$u_result}>
+
+<table border="1px" cellspacing="0" cellpadding="0" class="zh">
+    <caption>用户信息</caption>
+    <tr>
+        <td>序列号</td>
+        <td>账户</td>
+        <td>密码</td>
+    </tr>
+    <{foreach $u_result as $k => $v}>
+    <tr>
+        <td><{$v['u_id']}></td>
+        <td><{$v.u_account}></td>
+        <td><{$v.u_pwd}></td>
+    </tr>
+    <{foreachelse}>
+    <tr>
+        <td colspan="3">没有您查找的数据</td>
+    </tr>
+    <{/foreach}>
+</table>
 </body>
 </html>
