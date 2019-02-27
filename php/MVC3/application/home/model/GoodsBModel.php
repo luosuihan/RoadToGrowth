@@ -7,8 +7,8 @@
  * 、、//展示商品
  */
 namespace home\model;
-use framework\core\Model;
-class GoodsModel extends Model
+use framework\core\BModel;
+class GoodsBModel extends BModel
 {
     public $logic_table = 'emp';
     //查询数据
@@ -19,5 +19,5 @@ class GoodsModel extends Model
          return $req;
     }
 }
-//$text = new GoodsModel();
+//$text = new GoodsBModel();
 //$text ->selectGoods();

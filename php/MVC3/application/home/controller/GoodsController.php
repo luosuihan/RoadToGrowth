@@ -13,7 +13,7 @@ class GoodsController extends Controller
 {
     public function goodsList()
     {
-        $goodsFactory = Factory::M("GoodsModel");
+        $goodsFactory = Factory::M("GoodsBModel");
 //        $where = ['good'=>'zhangs'];
         $where = ['goods_id' => 56];
 //        $filed = ['goods_id','goods_name','shop_price'];
