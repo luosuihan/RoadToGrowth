@@ -7,8 +7,8 @@
  * 、、//展示商品
  */
 namespace home\model;
-use framework\core\BModel;
-class GoodsBModel extends BModel
+use framework\core\Model;
+class GoodsBModel extends Model
 {
     public $logic_table = 'emp';
     //查询数据

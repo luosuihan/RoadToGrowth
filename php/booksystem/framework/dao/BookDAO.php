@@ -70,6 +70,18 @@ class BookDAO
             die("数据库查询失败");
         }
     }
+    //主键查询
+    /*public function findPrimary()
+    {
+        $sql = "desc $this->true_table ";
+        $result = $this -> dao3 ->selectOne($sql);
+        foreach ($result as $k => $v)
+        {
+            if ($v['key'] == 'PRI'){
+                $this ->pk = $v['Field'];
+            }
+        }
+    }*/
     //增删改
     public function myquery($sql)
     {

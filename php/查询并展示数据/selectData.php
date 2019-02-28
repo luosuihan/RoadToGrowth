@@ -22,21 +22,21 @@ var_dump($mysqli);*/
     die('数据库连接失败'.connect_error);
 }*/
 
-/*$sql = "select * from emp";
-//$res = mysqli_query($mysqli,$sql);
+$sql = "select * from emp";
+$res = mysqli_query($mysqli,$sql);
 //查询数据
-$res = $mysqli ->fetchAll($sql);
+//$res = $mysqli ->fetchAll($sql);
 $employee_list = array();
 for($i = 0;$i<count($res);$i++){
     $employee_list[] = $res[$i];
-}*/
+}
 //插入数据
-$sql1 = "insert into  `emp` VALUES (9043,'张三','android','7698','2012-01-02','1600','300','30'),
+/*$sql1 = "insert into  `emp` VALUES (9043,'张三','android','7698','2012-01-02','1600','300','30'),
 (9043,'李四','android','7698','2012-01-02','1600','300','30'),
 (9043,'王五','android','7698','2012-01-02','1600','300','30'),
 (9043,'小黑','android','7698','2012-01-02','1600','300','30')";
 $sql2 = "delete from `emp` where ename='张三'";
-$res = $mysqli ->addData($sql1);
+$res = $mysqli ->addData($sql1);*/
 /*while ($row = mysqli_fetch_assoc($res)){
     $employee_list[] = $row;
 }*/

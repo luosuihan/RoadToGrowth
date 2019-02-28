@@ -20,7 +20,7 @@ class Model
         $this -> initDAO();
         //初始化真实表名
         $this -> initTrueTable();
-//        $this -> findPrimary();
+        $this -> findPrimary();
     }
     public function initDAO()
     {
@@ -37,6 +37,8 @@ class Model
     {
         $sql = "desc $this->true_table ";
         $result = $this -> dao3 ->selectOne($sql);
+        echo'<pre>';
+        var_dump($result);
         foreach ($result as $k => $v)
         {
             if ($v['key'] == 'PRI'){
