@@ -15,7 +15,6 @@ class UserModel extends BModel
         if (empty($where)){
             $str_where = '';
         }else{
-//            $str_where = '';
             $kuesr = array_keys($where)[0];
             $vuser = array_values($where)[0];
             $kpwd = array_keys($where)[1];

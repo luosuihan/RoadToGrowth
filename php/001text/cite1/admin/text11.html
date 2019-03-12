@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script >
+   function UrlSearch()
+   {
+       var name,value;
+       var str=decodeURI(window.location.href); //取得整个地址栏
+       var num=str.indexOf("?")
+       str=str.substr(num+1);
+
+       var arr=str.split("&");
+       for(var i=0;i < arr.length;i++){
+           num=arr[i].indexOf("=");
+           if(num>0){
+               name=arr[i].substring(0,num);
+               value=arr[i].substr(num+1);
+               this[name]=value;
+           }
+       }
+   }
+   var Request=new UrlSearch();
+   //Request   这个值就是获取title
+
+</script>
+</body>
+</html>
